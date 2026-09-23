@@ -54,6 +54,8 @@ Rejected: floor width 1912, over-cab 1215, entry 780 × 1550, photo-scale overal
 
 Do not cut until these are signed: as-found tape, Jay GO rail drill, Eng tube/weld, outriggers and legs, weigh before any kg, hose test, hatch frame, ladder, bumper, and the D-07 / D-08 provision rules. Generator and AC units are hooks, not BOM Done lines. No bolt grade, kW, BTU, or kilogram is released.
 
+Redefined Phase-1 plan, still CONDITIONAL / NO-GO cut: [`docs/qc/PHASE-PLAN-REDEF.md`](docs/qc/PHASE-PLAN-REDEF.md).
+
 ## Other trees
 
 | Path | Role |
