@@ -15,6 +15,8 @@ A fabricator builds from this paper. A verbal brief is not the SoR. Do not scale
 5. Sequence, joints, holes, materials, BOM, and hose test in [`cut/shop/`](cut/shop/).
 6. Gates to sign before any cut: [`notes/commissioning-gates.md`](notes/commissioning-gates.md).
 
+Human audit of panels-to-cut and frames-to-form: [`inventory/CUT-FORM-REGISTER.md`](inventory/CUT-FORM-REGISTER.md).
+
 Landscape sheet map: [`mermaid/INDEX.mmd`](mermaid/INDEX.mmd).
 
 ## Chassis lock
