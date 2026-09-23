@@ -27,7 +27,9 @@ Frame cut list: `C-FR_frame_cut_list.svg`. Plates: `C-PL_mount_plates.svg`.
 
 Frame drawings: `frame/`. Door: `door/`. Hatches: `hatch/`. Shop: `shop/`.
 
-DXF files in `dxf/` are outer envelopes only. They omit field-locate openings.
+DXF files in `dxf/` for C-01, C-02, C-03, C-04_p4a, C-04_p4c, C-05, and C-06 are outer envelopes only. They omit field-locate openings.
+
+`C-FR_frame_cut_list`, `C-PL_mount_plates`, `DR-01_leaf`, `DR-02_jamb`, `H-01_lounge`, `H-02_rear`, and `C-04_p4_overcab` in `dxf/` are as-drawn A1 sheet exports. CONDITIONAL inventory, not part-scale cut profiles. See [`../docs/qc/DXF-EXPORT-TRIAL.md`](../docs/qc/DXF-EXPORT-TRIAL.md).
 
 ## Not on these sheets
 
