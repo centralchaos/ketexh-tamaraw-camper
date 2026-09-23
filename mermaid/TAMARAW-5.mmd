@@ -1,0 +1,38 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Source / pack"]
+    direction TB
+    SOLAR["Solar input<br/>interface reserved"]
+    PACK["48 V LiFePO4<br/>~43–45 kWh example"]
+    BMS["BMS / fuse<br/>vendor package TBD"]
+  end
+  subgraph C2["② Distribution"]
+    direction TB
+    BUS["48 V DC bus<br/>shell-level loads"]
+    LOAD["~180 W avg example<br/>lights · fans · controls"]
+    INV["Inverter / charger<br/>interface reserved"]
+  end
+  subgraph C3["③ Phase-1 hooks"]
+    direction TB
+    ROOF["Roof GI lands<br/>later solar rack"]
+    GLAND["Underbody glands<br/>HV / comms"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  SOLAR --> BMS
+  PACK --> BMS --> BUS
+  BUS --> LOAD
+  BUS --> INV
+  ROOF -.-> SOLAR
+  PACK --> GLAND --> WM

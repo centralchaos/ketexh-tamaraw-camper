@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1600"
+     role="img" aria-label="KE-Texh Tamaraw Phase-1 SHELL assembly P1-P8">
+  <rect width="100%" height="100%" fill="#fcfcfa"/>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .title { fill:#141414; font-family:DejaVu Sans,Arial,sans-serif; font-size:32px; font-weight:bold; }
+      .sub { fill:#444; font-family:DejaVu Sans,Arial,sans-serif; font-size:16px; }
+      .wm { fill:#b43232; font-family:DejaVu Sans,Arial,sans-serif; font-size:18px; font-weight:bold; }
+      .part { fill:none; stroke:#141414; stroke-width:2.5; stroke-linejoin:round; stroke-linecap:round; }
+      .part-fill { fill:#f4f4f0; stroke:#141414; stroke-width:2.5; stroke-linejoin:round; }
+      .rail { fill:none; stroke:#006eb4; stroke-width:3; }
+      .open { fill:none; stroke:#141414; stroke-width:2; }
+      .open-door { fill:none; stroke:#141414; stroke-width:2; stroke-dasharray:12 8; }
+      .guide { fill:none; stroke:#888; stroke-width:1; stroke-dasharray:8 6; }
+      .leader { fill:none; stroke:#141414; stroke-width:1.2; }
+      .lbl { fill:#141414; font-family:DejaVu Sans,Arial,sans-serif; font-size:15px; font-weight:bold; }
+      .note { fill:#333; font-family:DejaVu Sans,Arial,sans-serif; font-size:13px; }
+      .dimt { fill:#141414; font-family:DejaVu Sans,Arial,sans-serif; font-size:14px; }
+      .leg { fill:#141414; font-family:DejaVu Sans,Arial,sans-serif; font-size:14px; }
+    ]]></style>
+  </defs>
+
+  <!-- Title block -->
+  <text class="title" x="40" y="44">KE-Texh Tamaraw — A05 SHELL ASSEMBLY (Phase-1 · panel build)</text>
+  <text class="wm" x="40" y="72">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+  <text class="sub" x="40" y="96">SoR: OAL ≈6300 · floor 3647×1911 · OAH ≤2500 · over-cab ≈1223 · TAIL +1000 · +100/side · WB 3085 · bed 2647×1711</text>
+  <text class="sub" x="40" y="116">Exploded orthographic — shell only · P1–P8 · no interior fit-out</text>
+  <line x1="40" y1="130" x2="2360" y2="130" stroke="#141414" stroke-width="1.5"/>
+
+  <!-- ========== LEFT: exploded isometric-ish side assembly ========== -->
+  <!-- Coordinate system: drawing region ~40..1500 x 160..1450 -->
+  <!-- Scale ~0.28 mm/px for length; vertical exaggerated slightly for clarity -->
+
+  <!-- Ground / chassis hint -->
+  <line class="guide" x1="80" y1="1180" x2="1180" y2="1180"/>
+  <text class="note" x="80" y="1200">chassis / bed rails (ref)</text>
+
+  <!-- Bed rails (blue) under floor -->
+  <rect class="rail" x="320" y="1120" width="740" height="18"/>
+  <text class="note" x="320" y="1110">bed rails 2647 (bolted outriggers — see A06)</text>
+
+  <!-- P1 Floor pan — lowest, slight offset up from rails -->
+  <g id="P1">
+    <rect class="part-fill" x="300" y="1040" width="820" height="55"/>
+    <!-- isometric hint: parallelogram depth -->
+    <polygon class="part" points="300,1040 340,1005 1160,1005 1120,1040" fill="#ebebe6"/>
+    <line class="leader" x1="1160" y1="1020" x2="1280" y2="980"/>
+    <text class="lbl" x="1288" y="984">P1 FLOOR PAN</text>
+    <text class="note" x="1288" y="1002">3647 × 1911 on outriggers</text>
+  </g>
+
+  <!-- P5 Rear wall — exploded aft/up -->
+  <g id="P5">
+    <rect class="part-fill" x="1080" y="620" width="40" height="360"/>
+    <polygon class="part" points="1120,620 1160,590 1160,950 1120,980" fill="#ebebe6"/>
+    <line class="leader" x1="1160" y1="700" x2="1280" y2="660"/>
+    <text class="lbl" x="1288" y="664">P5 REAR WALL</text>
+    <text class="note" x="1288" y="682">vertical flat back</text>
+  </g>
+
+  <!-- P2 Side wall LH (near) — exploded down-left of assembled position -->
+  <g id="P2">
+    <polygon class="part-fill" points="180,720 980,720 980,1020 180,1020"/>
+    <!-- openings cutouts as rectangles on wall -->
+    <rect class="open-door" x="260" y="760" width="120" height="240"/>
+    <rect class="open" x="430" y="780" width="160" height="100"/>
+    <rect class="open" x="640" y="780" width="160" height="100"/>
+    <line class="leader" x1="180" y1="860" x2="60" y2="820"/>
+    <text class="lbl" x="40" y="812" text-anchor="end">P2 SIDE WALL LH</text>
+    <text class="note" x="40" y="830" text-anchor="end">L 3647 · H ≈1830</text>
+  </g>
+
+  <!-- P3 Side wall RH — exploded up-right (shown as thin edge + label) -->
+  <g id="P3">
+    <polygon class="part-fill" points="360,480 1160,480 1160,560 360,560"/>
+    <polygon class="part" points="360,480 400,450 1200,450 1160,480" fill="#ebebe6"/>
+    <line class="leader" x1="1200" y1="465" x2="1280" y2="420"/>
+    <text class="lbl" x="1288" y="424">P3 SIDE WALL RH</text>
+    <text class="note" x="1288" y="442">mirror of P2</text>
+  </g>
+
+  <!-- P4 Front / over-cab loft box — exploded forward-up -->
+  <g id="P4">
+    <polygon class="part-fill" points="80,520 280,520 280,780 100,780 80,740"/>
+    <rect class="open" x="120" y="560" width="120" height="70"/>
+    <line class="leader" x1="80" y1="620" x2="40" y2="560"/>
+    <text class="lbl" x="36" y="552" text-anchor="end">P4 FRONT / OVER-CAB</text>
+    <text class="note" x="36" y="570" text-anchor="end">loft box ≈1223</text>
+  </g>
+
+  <!-- P6 Roof panel — exploded highest -->
+  <g id="P6">
+    <polygon class="part-fill" points="100,280 1080,280 1120,320 140,320"/>
+    <line class="leader" x1="600" y1="280" x2="600" y2="200"/>
+    <text class="lbl" x="600" y="190" text-anchor="middle">P6 ROOF PANEL</text>
+    <text class="note" x="600" y="208" text-anchor="middle">continuous · OAH ≤2500</text>
+  </g>
+
+  <!-- Assembly arrows (dashed guides between parts) -->
+  <line class="guide" x1="600" y1="320" x2="600" y2="480"/>
+  <line class="guide" x1="200" y1="780" x2="280" y2="900"/>
+  <line class="guide" x1="1100" y1="980" x2="1100" y2="1040"/>
+  <line class="guide" x1="760" y1="560" x2="760" y2="720"/>
+
+  <!-- ========== RIGHT: openings callout panel ========== -->
+  <rect x="1480" y="160" width="860" height="520" fill="#ffffff" stroke="#141414" stroke-width="1.5"/>
+  <text class="lbl" x="1500" y="190">OPENINGS (locate on P2/P3/P4)</text>
+  <text class="wm" x="1500" y="212" style="font-size:12px">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+
+  <!-- Door schematic -->
+  <rect class="open-door" x="1520" y="250" width="100" height="220"/>
+  <line class="leader" x1="1620" y1="360" x2="1700" y2="360"/>
+  <text class="lbl" x="1708" y="364">P7 ENTRY DOOR</text>
+  <text class="note" x="1708" y="382">behind cab · field hinge side</text>
+
+  <!-- Windows -->
+  <rect class="open" x="1520" y="500" width="140" height="80"/>
+  <rect class="open" x="1680" y="500" width="140" height="80"/>
+  <rect class="open" x="1840" y="510" width="110" height="60"/>
+  <line class="leader" x1="1950" y1="540" x2="2040" y2="540"/>
+  <text class="lbl" x="2048" y="544">P8 WINDOWS</text>
+  <text class="note" x="1520" y="610">body ×2 + over-cab (optional front-face dashed on side SVG)</text>
+
+  <!-- ========== Parts legend ========== -->
+  <rect x="1480" y="720" width="860" height="420" fill="#ffffff" stroke="#141414" stroke-width="1.5"/>
+  <text class="lbl" x="1500" y="750">PARTS LIST (shell only)</text>
+  <text class="leg" x="1500" y="780">P1  Floor pan — 3647 × 1911 mm · on bolted outriggers to bed rails</text>
+  <text class="leg" x="1500" y="808">P2  Side wall LH — length 3647 · height ≈1830 (construction)</text>
+  <text class="leg" x="1500" y="836">P3  Side wall RH — mirror of P2</text>
+  <text class="leg" x="1500" y="864">P4  Front wall / over-cab loft box — ≈1223 mm over cab</text>
+  <text class="leg" x="1500" y="892">P5  Rear wall — vertical flat back</text>
+  <text class="leg" x="1500" y="920">P6  Roof panel — continuous high roof · OAH ≤2500</text>
+  <text class="leg" x="1500" y="948">P7  Entry door opening</text>
+  <text class="leg" x="1500" y="976">P8  Window openings — body ×2 + over-cab</text>
+  <text class="note" x="1500" y="1015">OUT OF SCOPE: cabinetry, wet systems, electrics (placeholders only)</text>
+  <text class="note" x="1500" y="1038">Mount / weep / legs / kg placard → A06_bolt_mount_notes.md</text>
+  <text class="wm" x="1500" y="1110">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+
+  <!-- Bottom dim strip -->
+  <line x1="40" y1="1280" x2="2360" y2="1280" stroke="#141414" stroke-width="1"/>
+  <text class="dimt" x="40" y="1310">DIM CHECK (Architect CONDITIONAL SoR from svg/): OAL ≈6300 · floor 3647×1911 · over-cab ≈1223 · TAIL EXT +1000 · SHELL_W 1911 (+100/side) · WB 3085 · bed 2647×1711 · OAH ≤2500</text>
+  <text class="note" x="40" y="1335">Photo-scale REV A (OAL 5942) is reference only — see fab-pack/reference/ — NOT ADOPTED for cut.</text>
+  <text class="wm" x="40" y="1370">REV CONDITIONAL · A05 · PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+</svg>

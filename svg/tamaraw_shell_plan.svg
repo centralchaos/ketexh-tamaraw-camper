@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="5510mm" height="3011mm"
+     viewBox="-1523 -420 5510 3011"
+     role="img" aria-label="KE-Texh Tamaraw Phase-1 shell plan expansion envelope mm">
+  <rect id="background" x="-1523" y="-420" width="5510" height="3011" fill="#ffffff"/>
+  <title>tamaraw_shell_plan — Phase-1 expansion envelope plan</title>
+  <desc>Stock bed 1711×2647 vs shell max 1911×3647 (TAIL EXT +1000). Expansion 100.0 mm/side. Over-cab ≈ 1223 mm. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Weight/overhang/LTO risk.</desc>
+  <defs>
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#000000" stroke-width="3"/>
+    </pattern>
+    <style type="text/css"><![CDATA[
+      .bed { fill:#ffffff; stroke:#000000; stroke-width:3; stroke-dasharray:25 14; }
+      .shell { fill:#ffffff; stroke:#000000; stroke-width:4; }
+      .overcab { fill:#f7f7f7; stroke:#000000; stroke-width:3; stroke-dasharray:18 12; }
+      .band { fill:url(#hatch); stroke:#000000; stroke-width:2; }
+      .dim line { stroke:#000000; stroke-width:1.5; fill:none; }
+      .dim polygon { fill:#000000; }
+      .dim text, .label, .title, .note, .watermark, .leader text {
+        fill:#000000; font-family:DejaVu Sans, Arial, sans-serif;
+      }
+      .title { font-size:66px; font-weight:bold; }
+      .watermark { font-size:44px; font-weight:bold; }
+      .label { font-size:50px; }
+      .note { font-size:38px; }
+      .dim text { font-size:50px; }
+      .leader line { stroke:#000000; stroke-width:1.2; fill:none; }
+      .sep { stroke:#000000; stroke-width:1.5; }
+    ]]></style>
+  </defs>
+
+  <g id="titleblock">
+    <text class="title" x="-1503" y="-355">KE-Texh Tamaraw — Phase-1 SHELL plan / expansion envelope (mm)</text>
+    <text class="watermark" x="-1503" y="-297">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+    <text class="note" x="-1503" y="-249">Hatched = width growth (+100 mm/side, Carlo-locked SHELL_W 1911 mm) · dashed = over-cab ROOM · Envelope L ≈ 4870 mm · OEM W ≈ 1800 mm</text>
+    <text class="note" x="-1503" y="-201">BODY EXT beyond dropside +1000 mm · SHELL_W 1911 (+100 mm/side from bed 1711) · weight / rear overhang / LTO risk · NOT LTO-CERTIFIED</text>
+    <line class="sep" x1="-1503" y1="-169" x2="3927" y2="-169"/>
+  </g>
+
+  <g id="shell_box" inkscape:groupmode="layer" inkscape:label="shell_box">
+    <rect class="shell" x="0" y="0" width="3647" height="1911"/>
+    <rect class="overcab" x="-1223" y="0" width="1223" height="1911"/>
+  </g>
+  <g id="expansion_bands" inkscape:groupmode="layer" inkscape:label="expansion_bands">
+    <rect class="band" x="0" y="0" width="3647" height="100.0"/>
+    <rect class="band" x="0" y="1811.0" width="3647" height="100.0"/>
+  </g>
+  <g id="stock_bed" inkscape:groupmode="layer" inkscape:label="stock_bed">
+    <rect class="bed" x="0" y="100.0" width="2647" height="1711"/>
+    <text class="label" x="1323.5" y="935.5" text-anchor="middle">STOCK BED</text>
+    <text class="label" x="1323.5" y="1000.5" text-anchor="middle">1711 W × 2647 L mm</text>
+    <text class="label" x="3147.0" y="935.5" text-anchor="middle">TAIL EXT</text>
+    <text class="label" x="3147.0" y="1000.5" text-anchor="middle">+1000 mm</text>
+    <text class="label" x="-611.5" y="945.5" text-anchor="middle">OVER-CAB</text>
+    <text class="label" x="-611.5" y="1005.5" text-anchor="middle">ROOM ≈ 1223 mm</text>
+  </g>
+  <g id="openings" inkscape:groupmode="layer" inkscape:label="openings">
+    <rect x="80" y="140.0" width="40" height="700"
+          fill="none" stroke="#000" stroke-width="2" stroke-dasharray="16 10"/>
+    <g class="leader">
+      <line x1="120" y1="490.0" x2="280" y2="490.0"/>
+      <circle cx="120" cy="490.0" r="5" fill="#000"/>
+      <text x="296" y="502.0" class="note">ENTRY (side)</text>
+    </g>
+  </g>
+  <g id="dimensions" inkscape:groupmode="layer" inkscape:label="dimensions">
+    <g class="dim">
+      <line x1="-1223" y1="2061" x2="0" y2="2061"/>
+      <line x1="-1223" y1="2033" x2="-1223" y2="2089"/>
+      <line x1="0" y1="2033" x2="0" y2="2089"/>
+      <polygon points="-1223,2061 -1209,2055 -1209,2067"/>
+      <polygon points="0,2061 -14,2055 -14,2067"/>
+      <text x="-611.5" y="2119" text-anchor="middle">OVER-CAB ≈ 1223 mm</text>
+    </g>
+    <g class="dim">
+      <line x1="0" y1="2241" x2="3647" y2="2241"/>
+      <line x1="0" y1="2213" x2="0" y2="2269"/>
+      <line x1="3647" y1="2213" x2="3647" y2="2269"/>
+      <polygon points="0,2241 14,2235 14,2247"/>
+      <polygon points="3647,2241 3633,2235 3633,2247"/>
+      <text x="1823.5" y="2299" text-anchor="middle">SHELL FLOOR L = 3647 mm (bed 2647 + TAIL EXT 1000 beyond dropside)</text>
+    </g>
+    <g class="dim">
+      <line x1="2647" y1="2421" x2="3647" y2="2421"/>
+      <line x1="2647" y1="2393" x2="2647" y2="2449"/>
+      <line x1="3647" y1="2393" x2="3647" y2="2449"/>
+      <polygon points="2647,2421 2661,2415 2661,2427"/>
+      <polygon points="3647,2421 3633,2415 3633,2427"/>
+      <text x="3147.0" y="2479" text-anchor="middle">TAIL EXT +1000 mm (stock bed rear → shell rear)</text>
+    </g>
+    <g class="dim">
+      <line x1="3817" y1="0" x2="3817" y2="1911"/>
+      <line x1="3789" y1="0" x2="3845" y2="0"/>
+      <line x1="3789" y1="1911" x2="3845" y2="1911"/>
+      <polygon points="3817,0 3811,14 3823,14"/>
+      <polygon points="3817,1911 3811,1897 3823,1897"/>
+      <text x="3889" y="955.5" text-anchor="middle"
+            transform="rotate(90 3889 955.5)">SHELL W = 1911 mm (+100/side)</text>
+    </g>
+    <g class="dim">
+      <line x1="-1373" y1="100.0" x2="-1373" y2="1811.0"/>
+      <line x1="-1401" y1="100.0" x2="-1345" y2="100.0"/>
+      <line x1="-1401" y1="1811.0" x2="-1345" y2="1811.0"/>
+      <polygon points="-1373,100.0 -1379,114.0 -1367,114.0"/>
+      <polygon points="-1373,1811.0 -1379,1797.0 -1367,1797.0"/>
+      <text x="-1445" y="955.5" text-anchor="middle"
+            transform="rotate(-90 -1445 955.5)">BED W = 1711 mm</text>
+    </g>
+  </g>
+</svg>

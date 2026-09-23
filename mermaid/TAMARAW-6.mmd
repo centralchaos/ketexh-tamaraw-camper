@@ -1,0 +1,38 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Envelope + structure"]
+    direction TB
+    E1["TAMARAW-1 M-Envelope"]
+    E2["TAMARAW-2 M-Structure"]
+    E3["TAMARAW-3 M-Thermal"]
+  end
+  subgraph C2["② Underbody + power"]
+    direction TB
+    E4["TAMARAW-4 M-Underbody"]
+    E5["TAMARAW-5 M-Power"]
+    P1["Phase-1 = shell only<br/>no interior fit-out"]
+  end
+  subgraph C3["③ Phase-2+ hooks"]
+    direction TB
+    P2A["Later: solar array<br/>on roof lands"]
+    P2B["Later: fit-out / water<br/>capped bosses only now"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  E1 --> E2 --> E3
+  E3 --> E4 --> E5
+  E5 --> P1
+  P1 --> P2A
+  P1 --> P2B
+  P2A --> WM

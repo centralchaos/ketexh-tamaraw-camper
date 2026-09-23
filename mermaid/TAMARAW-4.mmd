@@ -1,0 +1,38 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Underbody battery"]
+    direction TB
+    PACK["LiFePO4 example<br/>~43–45 kWh @ 48 V"]
+    CRADLE["Steel cradle<br/>between frame rails"]
+    SAFE["Vent · fire sep.<br/>isolate exhaust/fuel"]
+  end
+  subgraph C2["② Utility apertures only"]
+    direction TB
+    TOOL["Tool opening<br/>350 W × 550 H"]
+    LAUN["Laundry opening<br/>350 W × 450 H"]
+    LOC["Starboard aft<br/>covers only · Phase-1"]
+  end
+  subgraph C3["③ Shell doors + watermark"]
+    direction TB
+    ENTRY["Entry door min<br/>700 W × 1550 H"]
+    REAR["Rear barn pair<br/>~800 W × 1550 H ea"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  PACK --> CRADLE --> SAFE
+  TOOL --> LOC
+  LAUN --> LOC
+  SAFE -.-> LOC
+  ENTRY --> WM
+  REAR --> WM

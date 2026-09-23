@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     width="6900mm" height="4180mm"
+     viewBox="-200 -3280 6900 4180"
+     role="img" aria-label="KE-Texh Tamaraw Phase-1 camper shell side elevation mm">
+  <rect id="background" x="-200" y="-3280" width="6900" height="4180" fill="#ffffff"/>
+  <title>tamaraw_shell_side — Phase-1 shell side elevation</title>
+  <desc>Tall over-cab ROOM, continuous high roof ≤2500 mm, shell floor 3647 mm (bed 2647 + TAIL EXT 1000), rear ~2015 mm past axle, vertical flat back. Overall ≈6300 mm. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Weight/overhang/LTO risk.</desc>
+  <defs>
+    <style type="text/css"><![CDATA[
+      .stroke-main { fill:#ffffff; stroke:#000000; stroke-width:4; stroke-linejoin:round; stroke-linecap:round; }
+      .stroke-cab  { fill:#f0f0f0; stroke:#000000; stroke-width:3; stroke-linejoin:round; }
+      .stroke-rail { fill:#666666; stroke:#000000; stroke-width:2; }
+      .opening { fill:none; stroke:#000000; stroke-width:2.5; }
+      .opening-door { fill:none; stroke:#000000; stroke-width:2.5; stroke-dasharray:20 12; }
+      .opening-opt { fill:none; stroke:#000000; stroke-width:2; stroke-dasharray:10 8; }
+      .wheel { fill:#111111; stroke:#000000; stroke-width:3; }
+      .wheel-hub { fill:#cccccc; stroke:#000000; stroke-width:2; }
+      .ground { fill:none; stroke:#444444; stroke-width:2; }
+      .dim line { stroke:#000000; stroke-width:1.5; fill:none; }
+      .dim polygon { fill:#000000; stroke:none; }
+      .dim text { fill:#000000; font-family:DejaVu Sans, Arial, sans-serif; }
+      .leader line { stroke:#000000; stroke-width:1.2; fill:none; }
+      .leader text { fill:#000000; font-family:DejaVu Sans, Arial, sans-serif; }
+      .title { fill:#000000; font-family:DejaVu Sans, Arial, sans-serif; font-size:76px; font-weight:bold; }
+      .note { fill:#222222; font-family:DejaVu Sans, Arial, sans-serif; font-size:40px; }
+      .watermark { fill:#000000; font-family:DejaVu Sans, Arial, sans-serif; font-size:46px; font-weight:bold; }
+      .sep { stroke:#000000; stroke-width:1.5; fill:none; }
+    ]]></style>
+  </defs>
+
+  <g id="titleblock">
+    <text class="title" x="-160" y="-3205">KE-Texh Tamaraw — Phase-1 SHELL side elevation (mm)</text>
+    <text class="watermark" x="-160" y="-3133">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+    <text class="note" x="-160" y="-3075">Shape: tall over-cab ROOM · continuous high roof · long rear · vertical flat back · entry + 2 body windows + over-cab window</text>
+    <text class="note" x="-160" y="-3017">DIM TABLE — Shell floor L 3647 (= bed 2647 + TAIL EXT 1000) · Shell W 1911 (+100/side) · Shell ext. H ≈ 1830 · Loft ≈ 700 · WB 3085 · Clear H 1900–2000</text>
+    <text class="note" x="-160" y="-2959">BODY EXT beyond dropside +1000 mm · width +100 mm/side (SHELL_W 1911) · weight / rear overhang / LTO risk · PRELIMINARY · VERIFY ON VEHICLE · NOT LTO-CERTIFIED · fabricator schematic</text>
+    <line class="sep" x1="-160" y1="-2919" x2="6620" y2="-2919"/>
+  </g>
+
+  <g id="drawing" transform="scale(1,-1)">
+    <line class="ground" x1="-160" y1="0" x2="6460" y2="0"/>
+    <g id="chassis_cab" inkscape:groupmode="layer" inkscape:label="chassis_cab">
+      <polygon class="stroke-cab" points="80,380 80,720 520,780 780,1800 1963,1800 1963,900 2023,900 2023,650 80,550"/>
+      <rect class="stroke-rail" x="1973" y="590" width="2707" height="80"/>
+      <circle class="wheel" cx="550" cy="320" r="320"/>
+      <circle class="wheel-hub" cx="550" cy="320" r="134"/>
+      <circle class="wheel" cx="3635" cy="320" r="320"/>
+      <circle class="wheel-hub" cx="3635" cy="320" r="134"/>
+      <rect class="opening" x="900" y="1200" width="700" height="480"/>
+    </g>
+    <g id="shell_box" inkscape:groupmode="layer" inkscape:label="shell_box">
+      <polygon class="stroke-main" points="2003,670 5650,670 5650,2500 780,2500 820,1800 2003,1800 2003,670"/>
+    </g>
+    <g id="openings" inkscape:groupmode="layer" inkscape:label="openings">
+      <rect class="opening-door" x="2083" y="710" width="700" height="1550"/>
+      <rect class="opening" x="2923" y="1750" width="780" height="520"/>
+      <rect class="opening" x="3863" y="1750" width="780" height="520"/>
+      <rect class="opening" x="960" y="1980" width="700" height="320"/>
+      <rect class="opening-opt" x="788" y="2000" width="60" height="280"/>
+    </g>
+    <g id="dimensions" inkscape:groupmode="layer" inkscape:label="dimensions">
+      <g class="dim">
+        <line x1="3635" y1="-160" x2="5650" y2="-160"/>
+        <line x1="3635" y1="-190" x2="3635" y2="-130"/>
+        <line x1="5650" y1="-190" x2="5650" y2="-130"/>
+        <polygon points="3635,-160 3649,-166 3649,-154"/>
+        <polygon points="5650,-160 5636,-166 5636,-154"/>
+        <text transform="scale(1,-1)" x="4642.5" y="218"
+              text-anchor="middle" font-size="50">REAR PAST AXLE ≈ 2015 mm</text>
+      </g>
+<g class="dim">
+        <line x1="4650" y1="-340" x2="5650" y2="-340"/>
+        <line x1="4650" y1="-370" x2="4650" y2="-310"/>
+        <line x1="5650" y1="-370" x2="5650" y2="-310"/>
+        <polygon points="4650,-340 4664,-346 4664,-334"/>
+        <polygon points="5650,-340 5636,-346 5636,-334"/>
+        <text transform="scale(1,-1)" x="5150.0" y="398"
+              text-anchor="middle" font-size="52">TAIL EXT +1000 mm</text>
+      </g>
+<g class="dim">
+        <line x1="2003" y1="-520" x2="5650" y2="-520"/>
+        <line x1="2003" y1="-550" x2="2003" y2="-490"/>
+        <line x1="5650" y1="-550" x2="5650" y2="-490"/>
+        <polygon points="2003,-520 2017,-526 2017,-514"/>
+        <polygon points="5650,-520 5636,-526 5636,-514"/>
+        <text transform="scale(1,-1)" x="3826.5" y="578"
+              text-anchor="middle" font-size="56">SHELL FLOOR L ≈ 3647 mm</text>
+      </g>
+<g class="dim">
+        <line x1="0" y1="-700" x2="6300" y2="-700"/>
+        <line x1="0" y1="-730" x2="0" y2="-670"/>
+        <line x1="6300" y1="-730" x2="6300" y2="-670"/>
+        <polygon points="0,-700 14,-706 14,-694"/>
+        <polygon points="6300,-700 6286,-706 6286,-694"/>
+        <text transform="scale(1,-1)" x="3150.0" y="758"
+              text-anchor="middle" font-size="52">OVERALL L ≈ 6300 mm (OEM 5300 + TAIL EXT)</text>
+      </g>
+<g class="dim">
+        <line x1="780" y1="2650" x2="2003" y2="2650"/>
+        <line x1="780" y1="2620" x2="780" y2="2680"/>
+        <line x1="2003" y1="2620" x2="2003" y2="2680"/>
+        <polygon points="780,2650 794,2644 794,2656"/>
+        <polygon points="2003,2650 1989,2644 1989,2656"/>
+        <text transform="scale(1,-1)" x="1391.5" y="-2708"
+              text-anchor="middle" font-size="50">OVER-CAB ROOM ≈ 1223 mm</text>
+      </g>
+<g class="dim">
+        <line x1="5870" y1="0" x2="5870" y2="2500"/>
+        <line x1="5840" y1="0" x2="5900" y2="0"/>
+        <line x1="5840" y1="2500" x2="5900" y2="2500"/>
+        <polygon points="5870,0 5864,14 5876,14"/>
+        <polygon points="5870,2500 5864,2486 5876,2486"/>
+        <text transform="scale(1,-1) rotate(-90 5945 -1250.0)"
+              x="5945" y="-1250.0" text-anchor="middle" font-size="56">H TARGET ≤ 2500 mm</text>
+      </g>
+      <g class="leader">
+        <polyline fill="none" stroke="#000000" stroke-width="1.2"
+                  points="960,2300 740,2300 740,2820"/>
+        <circle cx="960" cy="2300" r="5" fill="#000"/>
+        <text transform="scale(1,-1)" x="724" y="-2838"
+              text-anchor="end" font-size="44"
+              font-family="DejaVu Sans, Arial, sans-serif">OVER-CAB WIN</text>
+      </g>
+<g class="leader">
+        <line x1="2433.0" y1="2260" x2="2433.0" y2="2820"/>
+        <circle cx="2433.0" cy="2260" r="5" fill="#000"/>
+        <text transform="scale(1,-1)" x="2433.0" y="-2838"
+              text-anchor="middle" font-size="44"
+              font-family="DejaVu Sans, Arial, sans-serif">ENTRY 700×1550</text>
+      </g>
+<g class="leader">
+        <line x1="3313.0" y1="2270" x2="3313.0" y2="2820"/>
+        <circle cx="3313.0" cy="2270" r="5" fill="#000"/>
+        <text transform="scale(1,-1)" x="3313.0" y="-2838"
+              text-anchor="middle" font-size="44"
+              font-family="DejaVu Sans, Arial, sans-serif">WINDOW</text>
+      </g>
+<g class="leader">
+        <line x1="4253.0" y1="2270" x2="4253.0" y2="2820"/>
+        <circle cx="4253.0" cy="2270" r="5" fill="#000"/>
+        <text transform="scale(1,-1)" x="4253.0" y="-2838"
+              text-anchor="middle" font-size="44"
+              font-family="DejaVu Sans, Arial, sans-serif">WINDOW</text>
+      </g>
+    </g>
+  </g>
+</svg>
