@@ -414,11 +414,13 @@ def sheet_f01():
     for i in range(4):
         yy = y + 36 + i * 28
         s.line(x + 10, yy, x + w - 10, yy, sw=0.3, dash="2 1.4")
+    # Chain on the plan: bed 2647 + tail extension 1000 = floor 3647.
+    s.dim_h(x, split, y - 18, "BED 2647 mm", y, size=2.7)
+    s.dim_h(split, x + w, y - 18, "TAIL +1000 mm", y, size=2.7)
     s.dim_h(x, x + w, y + h + 16, "3647 mm", y + h, size=2.7)
     s.dim_v(y, y + h, x + w + 14, "1911 mm", x + w, side="right", size=2.6)
     s.text(x + 8, y + 12, "LH LONG", 2.2, weight="bold")
     s.text(x + 8, y + h - 8, "RH LONG", 2.2, weight="bold")
-    s.text(split + 4, y + 28, "TAIL +1000", 2.2, weight="bold")
     s.text(500, 80, "DASHED CROSSES", 2.5, weight="bold")
     s.text(500, 96, "OUTRIGGERS", 2.4)
     s.text(500, 112, "PITCH = AS-FOUND", 2.4, weight="bold")
@@ -428,8 +430,9 @@ def sheet_f01():
     s.text(500, 192, "LOAD PATH DOWN", 2.5, weight="bold")
     s.text(500, 208, "INTO THE RAILS", 2.4)
     s.text(500, 224, "NOT INTO SKIN", 2.4, fill="#9b1c1c")
-    s.text(18, 400, "HOLE SCHEDULE: DIAMETER TBD, EDGE TBD, TORQUE TBD. SEE FS-01 AND D-01.", 2.55)
-    s.text(18, 418, "BED / TAIL SPLICE IS J-01. DO NOT WELD UNTIL ENG GO.", 2.55)
+    s.text(18, 384, "TAIL EXTENSION = +1000 mm. BED 2647 + 1000 = FLOOR 3647. WIDTH STAYS 1911.", 2.55, weight="bold")
+    s.text(18, 402, "HOLE SCHEDULE: DIAMETER TBD, EDGE TBD, TORQUE TBD. SEE FS-01 AND D-01.", 2.55)
+    s.text(18, 420, "BED / TAIL SPLICE IS J-01. DO NOT WELD UNTIL ENG GO.", 2.55)
     go_pair(s, 18, 448)
     return finish(s)
 

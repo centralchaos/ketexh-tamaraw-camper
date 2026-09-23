@@ -14,6 +14,20 @@
 <line x1="50.00" y1="134.00" x2="394.70" y2="134.00" stroke="#141414" stroke-width="0.3" fill="none" stroke-dasharray="2 1.4"/>
 <line x1="50.00" y1="162.00" x2="394.70" y2="162.00" stroke="#141414" stroke-width="0.3" fill="none" stroke-dasharray="2 1.4"/>
 <line x1="50.00" y1="190.00" x2="394.70" y2="190.00" stroke="#141414" stroke-width="0.3" fill="none" stroke-dasharray="2 1.4"/>
+<text x="172.35" y="50.00" font-size="2.70" text-anchor="middle" fill="#141414">BED 2647 mm</text>
+<line x1="40.00" y1="52.00" x2="161.51" y2="52.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="183.19" y1="52.00" x2="304.70" y2="52.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="40.00,52.00 42.60,51.15 42.60,52.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="304.70,52.00 302.10,51.15 302.10,52.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="40.00" y1="50.40" x2="40.00" y2="68.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="304.70" y1="50.40" x2="304.70" y2="68.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="354.70" y="50.00" font-size="2.70" text-anchor="middle" fill="#141414">TAIL +1000 mm</text>
+<line x1="304.70" y1="52.00" x2="342.75" y2="52.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="366.65" y1="52.00" x2="404.70" y2="52.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="304.70,52.00 307.30,51.15 307.30,52.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="404.70,52.00 402.10,51.15 402.10,52.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="304.70" y1="50.40" x2="304.70" y2="68.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="404.70" y1="50.40" x2="404.70" y2="68.80" stroke="#141414" stroke-width="0.22" fill="none"/>
 <text x="222.35" y="275.10" font-size="2.70" text-anchor="middle" fill="#141414">3647 mm</text>
 <line x1="40.00" y1="277.10" x2="214.76" y2="277.10" stroke="#141414" stroke-width="0.28" fill="none"/>
 <line x1="229.94" y1="277.10" x2="404.70" y2="277.10" stroke="#141414" stroke-width="0.28" fill="none"/>
@@ -30,7 +44,6 @@
 <line x1="405.90" y1="261.10" x2="420.30" y2="261.10" stroke="#141414" stroke-width="0.22" fill="none"/>
 <text x="48.00" y="82.00" font-size="2.20" text-anchor="start" fill="#141414" font-weight="bold">LH LONG</text>
 <text x="48.00" y="253.10" font-size="2.20" text-anchor="start" fill="#141414" font-weight="bold">RH LONG</text>
-<text x="308.70" y="98.00" font-size="2.20" text-anchor="start" fill="#141414" font-weight="bold">TAIL +1000</text>
 <text x="500.00" y="80.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">DASHED CROSSES</text>
 <text x="500.00" y="96.00" font-size="2.40" text-anchor="start" fill="#141414">OUTRIGGERS</text>
 <text x="500.00" y="112.00" font-size="2.40" text-anchor="start" fill="#141414" font-weight="bold">PITCH = AS-FOUND</text>
@@ -40,8 +53,9 @@
 <text x="500.00" y="192.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">LOAD PATH DOWN</text>
 <text x="500.00" y="208.00" font-size="2.40" text-anchor="start" fill="#141414">INTO THE RAILS</text>
 <text x="500.00" y="224.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">NOT INTO SKIN</text>
-<text x="18.00" y="400.00" font-size="2.55" text-anchor="start" fill="#141414">HOLE SCHEDULE: DIAMETER TBD, EDGE TBD, TORQUE TBD. SEE FS-01 AND D-01.</text>
-<text x="18.00" y="418.00" font-size="2.55" text-anchor="start" fill="#141414">BED / TAIL SPLICE IS J-01. DO NOT WELD UNTIL ENG GO.</text>
+<text x="18.00" y="384.00" font-size="2.55" text-anchor="start" fill="#141414" font-weight="bold">TAIL EXTENSION = +1000 mm. BED 2647 + 1000 = FLOOR 3647. WIDTH STAYS 1911.</text>
+<text x="18.00" y="402.00" font-size="2.55" text-anchor="start" fill="#141414">HOLE SCHEDULE: DIAMETER TBD, EDGE TBD, TORQUE TBD. SEE FS-01 AND D-01.</text>
+<text x="18.00" y="420.00" font-size="2.55" text-anchor="start" fill="#141414">BED / TAIL SPLICE IS J-01. DO NOT WELD UNTIL ENG GO.</text>
 <rect x="18.00" y="448.00" width="168.00" height="28.00" fill="#ffffff" stroke="#9b1c1c" stroke-width="0.55"/>
 <rect x="22.00" y="456.00" width="6.00" height="6.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
 <text x="32.00" y="461.00" font-size="2.30" text-anchor="start" fill="#141414" font-weight="bold">JAY GO UNSIGNED</text>
