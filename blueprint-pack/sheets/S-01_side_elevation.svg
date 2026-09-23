@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="S-01 SIDE ELEVATION — LH, FRONT TO LEFT">
+<title>S-01 — SIDE ELEVATION — LH, FRONT TO LEFT</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Prototype discussion sheet. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<line x1="30.00" y1="332.00" x2="694.00" y2="332.00" stroke="#141414" stroke-width="0.45" fill="none"/>
+<polygon points="48.00,280.00 70.00,276.00 116.00,258.00 148.00,224.00 182.00,152.00 313.30,152.00 313.30,230.00 283.00,254.00 216.00,263.00 140.00,267.00 74.00,274.00 48.00,280.00" fill="#efefef" stroke="#141414" stroke-width="0.45" stroke-linejoin="miter"/>
+<rect x="198.00" y="170.00" width="62.00" height="46.00" fill="#ffffff" stroke="#141414" stroke-width="0.3"/>
+<circle cx="168.00" cy="302.00" r="30.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.4"/>
+<circle cx="168.00" cy="302.00" r="12.00" fill="#d0d0d0" stroke="#141414" stroke-width="0.3"/>
+<circle cx="476.50" cy="302.00" r="30.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.4"/>
+<circle cx="476.50" cy="302.00" r="12.00" fill="#d0d0d0" stroke="#141414" stroke-width="0.3"/>
+<rect x="313.30" y="265.00" width="264.70" height="8.00" fill="#4d4d4d" stroke="#141414" stroke-width="0.3"/>
+<polygon points="313.30,265.00 678.00,265.00 678.00,82.00 191.00,82.00 191.00,152.00 313.30,152.00" fill="#fbfbfb" stroke="#141414" stroke-width="0.7" stroke-linejoin="miter"/>
+<rect x="321.30" y="106.00" width="70.00" height="155.00" fill="#ffffff" stroke="#141414" stroke-width="0.4" stroke-dasharray="3.2 1.8"/>
+<rect x="405.30" y="105.00" width="78.00" height="52.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<rect x="499.30" y="105.00" width="78.00" height="52.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<rect x="209.00" y="102.00" width="70.00" height="32.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<circle cx="244.00" cy="102.00" r="0.90" fill="#141414" stroke="none" stroke-width="0.4"/>
+<polyline points="209.00,118.00 163.00,118.00 163.00,42.00" fill="none" stroke="#141414" stroke-width="0.28"/>
+<text x="161.00" y="38.00" font-size="3.05" text-anchor="end" fill="#141414">OVER-CAB WIN</text>
+<line x1="356.30" y1="106.00" x2="356.30" y2="44.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<circle cx="356.30" cy="106.00" r="0.90" fill="#141414" stroke="none" stroke-width="0.4"/>
+<text x="356.30" y="38.00" font-size="3.05" text-anchor="middle" fill="#141414">ENTRY 700×1550</text>
+<line x1="444.30" y1="105.00" x2="444.30" y2="44.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<circle cx="444.30" cy="105.00" r="0.90" fill="#141414" stroke="none" stroke-width="0.4"/>
+<text x="444.30" y="38.00" font-size="3.05" text-anchor="middle" fill="#141414">WINDOW</text>
+<line x1="538.30" y1="105.00" x2="538.30" y2="44.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<circle cx="538.30" cy="105.00" r="0.90" fill="#141414" stroke="none" stroke-width="0.4"/>
+<text x="538.30" y="38.00" font-size="3.05" text-anchor="middle" fill="#141414">WINDOW</text>
+<text x="252.15" y="59.89" font-size="3.15" text-anchor="middle" fill="#141414">OVER-CAB ≈ 1223 mm</text>
+<line x1="191.00" y1="62.00" x2="233.01" y2="62.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="271.29" y1="62.00" x2="313.30" y2="62.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="191.00,62.00 193.60,61.15 193.60,62.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="313.30,62.00 310.70,61.15 310.70,62.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="191.00" y1="60.40" x2="191.00" y2="80.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="313.30" y1="60.40" x2="313.30" y2="80.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="172.74" y="132.80" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 172.74 132.80)">LOFT ≈ 700 mm</text>
+<line x1="175.00" y1="82.00" x2="175.00" y2="118.80" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="175.00" y1="146.80" x2="175.00" y2="152.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="175.00,82.00 174.15,84.60 175.85,84.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="175.00,152.00 174.15,149.40 175.85,149.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="173.40" y1="82.00" x2="189.80" y2="82.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="173.40" y1="152.00" x2="189.80" y2="152.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="704.43" y="173.50" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 704.43 173.50)">SHELL EXT H ≈ 1830 mm</text>
+<line x1="700.00" y1="82.00" x2="700.00" y2="152.27" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="700.00" y1="194.73" x2="700.00" y2="265.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="700.00,82.00 699.15,84.60 700.85,84.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="700.00,265.00 699.15,262.40 700.85,262.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="679.20" y1="82.00" x2="701.60" y2="82.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="679.20" y1="265.00" x2="701.60" y2="265.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="734.43" y="207.00" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 734.43 207.00)">H TARGET ≤ 2500 mm</text>
+<line x1="730.00" y1="82.00" x2="730.00" y2="188.03" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="730.00" y1="225.97" x2="730.00" y2="332.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="730.00,82.00 729.15,84.60 730.85,84.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="730.00,332.00 729.15,329.40 730.85,329.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="679.20" y1="82.00" x2="731.60" y2="82.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="679.20" y1="332.00" x2="731.60" y2="332.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="322.25" y="345.89" font-size="3.15" text-anchor="middle" fill="#141414">WB 3085 mm</text>
+<line x1="168.00" y1="348.00" x2="310.43" y2="348.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="334.07" y1="348.00" x2="476.50" y2="348.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="168.00,348.00 170.60,347.15 170.60,348.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="476.50,348.00 473.90,347.15 473.90,348.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="168.00" y1="303.20" x2="168.00" y2="349.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="476.50" y1="303.20" x2="476.50" y2="349.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="445.65" y="363.39" font-size="3.15" text-anchor="middle" fill="#141414">BED L 2647 mm</text>
+<line x1="313.30" y1="365.50" x2="431.81" y2="365.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="459.49" y1="365.50" x2="578.00" y2="365.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="313.30,365.50 315.90,364.65 315.90,366.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="578.00,365.50 575.40,364.65 575.40,366.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="313.30" y1="266.20" x2="313.30" y2="342.06" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="313.30" y1="347.55" x2="313.30" y2="367.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="578.00" y1="266.20" x2="578.00" y2="367.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="577.25" y="380.89" font-size="3.15" text-anchor="middle" fill="#141414">REAR PAST AXLE ≈ 2015 mm</text>
+<line x1="476.50" y1="383.00" x2="553.07" y2="383.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="601.43" y1="383.00" x2="678.00" y2="383.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="476.50,383.00 479.10,382.15 479.10,383.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="678.00,383.00 675.40,382.15 675.40,383.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="476.50" y1="333.20" x2="476.50" y2="384.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="678.00" y1="333.20" x2="678.00" y2="384.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="628.00" y="398.39" font-size="3.15" text-anchor="middle" fill="#141414">TAIL EXT +1000 mm</text>
+<line x1="578.00" y1="400.50" x2="610.73" y2="400.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="645.27" y1="400.50" x2="678.00" y2="400.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="578.00,400.50 580.60,399.65 580.60,401.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="678.00,400.50 675.40,399.65 675.40,401.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="578.00" y1="266.20" x2="578.00" y2="377.06" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="578.00" y1="382.55" x2="578.00" y2="402.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="678.00" y1="266.20" x2="678.00" y2="402.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="495.65" y="415.89" font-size="3.15" text-anchor="middle" fill="#141414">SHELL FLOOR L = 3647 mm</text>
+<line x1="313.30" y1="418.00" x2="472.54" y2="418.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="518.76" y1="418.00" x2="678.00" y2="418.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="313.30,418.00 315.90,417.15 315.90,418.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="678.00,418.00 675.40,417.15 675.40,418.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="313.30" y1="266.20" x2="313.30" y2="342.06" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="313.30" y1="347.55" x2="313.30" y2="419.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="678.00" y1="266.20" x2="678.00" y2="419.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="363.00" y="433.39" font-size="3.15" text-anchor="middle" fill="#141414">OAL ≈ 6300 mm  (OEM 5300 + TAIL EXT)</text>
+<line x1="48.00" y1="435.50" x2="329.41" y2="435.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="396.59" y1="435.50" x2="678.00" y2="435.50" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="48.00,435.50 50.60,434.65 50.60,436.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="678.00,435.50 675.40,434.65 675.40,436.35" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="48.00" y1="333.20" x2="48.00" y2="437.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="678.00" y1="333.20" x2="678.00" y2="437.10" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="36.00" y="468.00" font-size="2.70" text-anchor="start" fill="#141414">OPENINGS ARE FIELD LOCATE — NOT A CUT FREEZE.  WHEELS, CAB, AND RAIL HEIGHT ARE SCHEMATIC — NOT CUT DIMS.</text>
+<text x="36.00" y="480.00" font-size="2.70" text-anchor="start" fill="#141414">CLEAR STANDING H TARGET 1900–2000 IS NOT CLOSED BY SHELL EXT H ≈ 1830.  AS-FOUND TAPE GOVERNS.</text>
+<text x="36.00" y="492.00" font-size="2.70" text-anchor="start" fill="#141414">PHASE-2 ROOF HOOKS (SOLAR / AC / AWNING) ARE DASHED ON S-07.   SECTION A–A: SEE S-02 AND S-05.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">S-01   SIDE ELEVATION — LH, FRONT TO LEFT</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND  ·  JAY GO RAIL DRILL  ·  OUTRIGGERS+LEGS+kg  ·  HOSE/RAIN  ·  HATCH  ·  LADDER  ·  BUMPER/SPLASH  ·  D-01…D-06  ·  PROTOTYPE ONLY</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  DISCUSSION ONLY  ·  NO-GO CUT STEEL UNTIL GATES  ·  mm  ·  2026-09-23  ·  SHEET 2 OF 15</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">S-01</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">SCALE 1:10</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>

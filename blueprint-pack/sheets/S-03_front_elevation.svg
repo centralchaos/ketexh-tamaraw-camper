@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="S-03 FRONT ELEVATION — OVER-CAB NOSE">
+<title>S-03 — FRONT ELEVATION — OVER-CAB NOSE</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Prototype discussion sheet. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<line x1="320.00" y1="430.00" x2="621.10" y2="430.00" stroke="#141414" stroke-width="0.45" fill="none"/>
+<rect x="360.00" y="180.00" width="191.10" height="70.00" fill="#fbfbfb" stroke="#141414" stroke-width="0.7"/>
+<rect x="427.55" y="194.00" width="56.00" height="28.00" fill="#ffffff" stroke="#141414" stroke-width="0.4" stroke-dasharray="2.2 1.3"/>
+<line x1="427.55" y1="208.00" x2="250.00" y2="198.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<text x="246.00" y="196.00" font-size="2.70" text-anchor="end" fill="#141414">OPTIONAL FRONT-FACE — NO CUT SIZE</text>
+<rect x="372.05" y="370.00" width="16.00" height="60.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.35"/>
+<circle cx="380.05" cy="400.00" r="3.20" fill="#d5d5d5" stroke="#141414" stroke-width="0.25"/>
+<rect x="523.05" y="370.00" width="16.00" height="60.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.35"/>
+<circle cx="531.05" cy="400.00" r="3.20" fill="#d5d5d5" stroke="#141414" stroke-width="0.25"/>
+<rect x="365.55" y="250.00" width="180.00" height="108.00" fill="#efefef" stroke="#141414" stroke-width="0.45"/>
+<polygon points="383.55,266.00 527.55,266.00 517.55,330.00 393.55,330.00" fill="#ffffff" stroke="#141414" stroke-width="0.3" stroke-linejoin="miter"/>
+<text x="455.55" y="141.89" font-size="3.15" text-anchor="middle" fill="#141414">CAB W ≈ 1800 mm REF</text>
+<line x1="365.55" y1="144.00" x2="435.74" y2="144.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="475.36" y1="144.00" x2="545.55" y2="144.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="365.55,144.00 368.15,143.15 368.15,144.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="545.55,144.00 542.95,143.15 542.95,144.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="365.55" y1="142.40" x2="365.55" y2="248.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="545.55" y1="142.40" x2="545.55" y2="248.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="455.55" y="161.89" font-size="3.15" text-anchor="middle" fill="#141414">SHELL W = 1911 mm</text>
+<line x1="360.00" y1="164.00" x2="437.56" y2="164.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="473.54" y1="164.00" x2="551.10" y2="164.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="360.00,164.00 362.60,163.15 362.60,164.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="551.10,164.00 548.50,163.15 548.50,164.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="360.00" y1="162.40" x2="360.00" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="551.10" y1="162.40" x2="551.10" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="571.53" y="215.00" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 571.53 215.00)">LOFT ≈ 700 mm</text>
+<line x1="567.10" y1="180.00" x2="567.10" y2="201.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="567.10" y1="229.00" x2="567.10" y2="250.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="567.10,180.00 566.25,182.60 567.95,182.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="567.10,250.00 566.25,247.40 567.95,247.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="552.30" y1="180.00" x2="568.70" y2="180.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="552.30" y1="250.00" x2="568.70" y2="250.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="601.53" y="305.00" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 601.53 305.00)">H TARGET ≤ 2500 mm</text>
+<line x1="597.10" y1="180.00" x2="597.10" y2="286.03" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="597.10" y1="323.97" x2="597.10" y2="430.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="597.10,180.00 596.25,182.60 597.95,182.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="597.10,430.00 596.25,427.40 597.95,427.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="552.30" y1="180.00" x2="598.70" y2="180.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="552.30" y1="430.00" x2="598.70" y2="430.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="455.55" y="449.89" font-size="3.15" text-anchor="middle" fill="#141414">TREAD F 1510 mm REF</text>
+<line x1="380.05" y1="452.00" x2="436.13" y2="452.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="474.97" y1="452.00" x2="531.05" y2="452.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="380.05,452.00 382.65,451.15 382.65,452.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="531.05,452.00 528.45,451.15 528.45,452.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="380.05" y1="431.20" x2="380.05" y2="453.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="531.05" y1="431.20" x2="531.05" y2="453.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="24.00" y="40.00" font-size="3.20" text-anchor="start" fill="#141414" font-weight="bold">FRONT VIEW SHOWS THE OVER-CAB NOSE ONLY.</text>
+<text x="24.00" y="56.00" font-size="2.80" text-anchor="start" fill="#141414">The living box is aft of the cab</text>
+<text x="24.00" y="68.00" font-size="2.80" text-anchor="start" fill="#141414">and does not appear in this view.</text>
+<text x="24.00" y="88.00" font-size="2.80" text-anchor="start" fill="#141414">SHELL W 1911 = BED 1711 + 100/SIDE.</text>
+<text x="24.00" y="100.00" font-size="2.80" text-anchor="start" fill="#141414">Cab width is chassis reference,</text>
+<text x="24.00" y="112.00" font-size="2.80" text-anchor="start" fill="#141414">not a shell cut.</text>
+<text x="24.00" y="132.00" font-size="2.80" text-anchor="start" fill="#141414">SHELL EXT H ≈ 1830 — SEE S-01 / S-04.</text>
+<text x="24.00" y="152.00" font-size="2.80" text-anchor="start" fill="#141414">Wheels and cab are schematic.</text>
+<text x="24.00" y="172.00" font-size="2.80" text-anchor="start" fill="#141414">No interior. No Phase-2 gear.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">S-03   FRONT ELEVATION — OVER-CAB NOSE</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND  ·  JAY GO RAIL DRILL  ·  OUTRIGGERS+LEGS+kg  ·  HOSE/RAIN  ·  HATCH  ·  LADDER  ·  BUMPER/SPLASH  ·  D-01…D-06  ·  PROTOTYPE ONLY</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  DISCUSSION ONLY  ·  NO-GO CUT STEEL UNTIL GATES  ·  mm  ·  2026-09-23  ·  SHEET 4 OF 15</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">S-03</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">SCALE 1:10</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>
