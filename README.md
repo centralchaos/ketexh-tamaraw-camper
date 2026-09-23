@@ -14,6 +14,7 @@ A fabricator builds from this paper. A verbal brief is not the SoR. Do not scale
 4. Patterns, frame, door, and hatches in [`cut/`](cut/).
 5. Sequence, joints, holes, materials, BOM, and hose test in [`cut/shop/`](cut/shop/).
 6. Gates to sign before any cut: [`notes/commissioning-gates.md`](notes/commissioning-gates.md).
+7. Handoff gate: [`docs/qc/FAB-HANDOFF-GATE.md`](docs/qc/FAB-HANDOFF-GATE.md). SVG present ≠ cut-ready.
 
 Human audit of panels-to-cut and frames-to-form: [`inventory/CUT-FORM-REGISTER.md`](inventory/CUT-FORM-REGISTER.md).
 
