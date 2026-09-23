@@ -1,0 +1,51 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 16px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 28
+    rankSpacing: 36
+    padding: 12
+---
+flowchart LR
+  subgraph A["1 Register"]
+    direction TB
+    CVR["CVR-00 Cover"]
+    DIMS["DIMS.md SoR"]
+    I00["I-00 Index"]
+  end
+  subgraph B["2 Envelope"]
+    direction TB
+    S01["S-01…S-06 Elevations"]
+    S07["S-07 Roof hooks"]
+    S08["S-08 AC curb + gen bay"]
+  end
+  subgraph C["3 Details"]
+    direction TB
+    D01["D-01…D-06 Structure"]
+    D07["D-07 Gen provision"]
+    D08["D-08 AC provision"]
+    A05["A-05 Panels P1–P8"]
+  end
+  subgraph D["4 Cut"]
+    direction TB
+    C00["C-00…C-06 Nests"]
+    CFR["C-FR / C-PL"]
+    FR["F-00…F-03 Frame"]
+    DR["DR-01 DR-02 / H-01…H-03"]
+  end
+  subgraph E["5 Shop"]
+    direction TB
+    AS["AS-01 Sequence"]
+    JJ["J-01 / FS-01 / MAT-01"]
+    BOM["BOM-01 / QA-01"]
+    GATE["GATES UNSIGNED = DO NOT CUT"]
+  end
+  CVR --> DIMS --> I00 --> S01 --> S07 --> S08
+  S08 --> D01 --> D07 --> D08 --> A05
+  A05 --> C00 --> CFR --> FR --> DR
+  DR --> AS --> JJ --> BOM --> GATE

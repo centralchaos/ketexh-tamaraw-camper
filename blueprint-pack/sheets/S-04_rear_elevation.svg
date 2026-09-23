@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="S-04 REAR ELEVATION — VERTICAL FLAT BACK">
+<title>S-04 — REAR ELEVATION — VERTICAL FLAT BACK</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. R and D fabricator sheet. Gates unsigned = do not cut. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<line x1="330.00" y1="430.00" x2="621.10" y2="430.00" stroke="#141414" stroke-width="0.45" fill="none"/>
+<rect x="360.00" y="180.00" width="191.10" height="183.00" fill="#fbfbfb" stroke="#141414" stroke-width="0.7"/>
+<line x1="370.00" y1="180.00" x2="370.00" y2="363.00" stroke="#141414" stroke-width="0.3" fill="none" stroke-dasharray="2.2 1.4"/>
+<line x1="541.10" y1="180.00" x2="541.10" y2="363.00" stroke="#141414" stroke-width="0.3" fill="none" stroke-dasharray="2.2 1.4"/>
+<text x="455.55" y="271.50" font-size="3.60" text-anchor="middle" fill="#141414" font-weight="bold">P5 REAR WALL</text>
+<text x="455.55" y="283.50" font-size="3.00" text-anchor="middle" fill="#141414">VERTICAL FLAT BACK</text>
+<polygon points="375.00,363.00 381.00,363.00 378.00,368.00" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="452.55,363.00 458.55,363.00 455.55,368.00" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="530.10,363.00 536.10,363.00 533.10,368.00" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="378.00" y1="368.00" x2="344.00" y2="383.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<text x="342.00" y="381.00" font-size="2.80" text-anchor="end" fill="#141414">WEEP OUTBOARD</text>
+<text x="342.00" y="393.00" font-size="2.80" text-anchor="end" fill="#141414">SEE D-03</text>
+<rect x="361.00" y="365.00" width="8.00" height="18.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<rect x="542.10" y="365.00" width="8.00" height="18.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<line x1="365.00" y1="373.00" x2="300.00" y2="328.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<text x="296.00" y="326.00" font-size="2.70" text-anchor="end" fill="#141414">LEG HARD POINT — D-02</text>
+<text x="296.00" y="338.00" font-size="2.70" text-anchor="end" fill="#141414">OCCUPIED ONLY ON STANDS</text>
+<rect x="372.05" y="370.00" width="16.00" height="60.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.35"/>
+<circle cx="380.05" cy="400.00" r="3.20" fill="#d5d5d5" stroke="#141414" stroke-width="0.25"/>
+<rect x="523.05" y="370.00" width="16.00" height="60.00" fill="#1a1a1a" stroke="#141414" stroke-width="0.35"/>
+<circle cx="531.05" cy="400.00" r="3.20" fill="#d5d5d5" stroke="#141414" stroke-width="0.25"/>
+<text x="455.55" y="141.89" font-size="3.15" text-anchor="middle" fill="#141414">BED W = 1711 mm</text>
+<line x1="370.00" y1="144.00" x2="439.21" y2="144.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="471.89" y1="144.00" x2="541.10" y2="144.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="370.00,144.00 372.60,143.15 372.60,144.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="541.10,144.00 538.50,143.15 538.50,144.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="370.00" y1="142.40" x2="370.00" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="541.10" y1="142.40" x2="541.10" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="455.55" y="161.89" font-size="3.15" text-anchor="middle" fill="#141414">SHELL W = 1911 mm</text>
+<line x1="360.00" y1="164.00" x2="437.56" y2="164.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="473.54" y1="164.00" x2="551.10" y2="164.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="360.00,164.00 362.60,163.15 362.60,164.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="551.10,164.00 548.50,163.15 548.50,164.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="360.00" y1="162.40" x2="360.00" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="551.10" y1="162.40" x2="551.10" y2="178.80" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="573.53" y="271.50" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 573.53 271.50)">SHELL EXT H ≈ 1830 mm</text>
+<line x1="569.10" y1="180.00" x2="569.10" y2="250.27" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="569.10" y1="292.73" x2="569.10" y2="363.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="569.10,180.00 568.25,182.60 569.95,182.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="569.10,363.00 568.25,360.40 569.95,360.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="552.30" y1="180.00" x2="570.70" y2="180.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="552.30" y1="363.00" x2="570.70" y2="363.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="605.53" y="305.00" font-size="3.15" text-anchor="middle" fill="#141414" transform="rotate(-90 605.53 305.00)">H TARGET ≤ 2500 mm</text>
+<line x1="601.10" y1="180.00" x2="601.10" y2="286.03" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="601.10" y1="323.97" x2="601.10" y2="430.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="601.10,180.00 600.25,182.60 601.95,182.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="601.10,430.00 600.25,427.40 601.95,427.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="552.30" y1="180.00" x2="602.70" y2="180.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="552.30" y1="430.00" x2="602.70" y2="430.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="455.55" y="449.89" font-size="3.15" text-anchor="middle" fill="#141414">TREAD R 1510 mm REF</text>
+<line x1="380.05" y1="452.00" x2="435.94" y2="452.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="475.16" y1="452.00" x2="531.05" y2="452.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="380.05,452.00 382.65,451.15 382.65,452.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="531.05,452.00 528.45,451.15 528.45,452.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="380.05" y1="431.20" x2="380.05" y2="453.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="531.05" y1="431.20" x2="531.05" y2="453.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="24.00" y="40.00" font-size="3.20" text-anchor="start" fill="#141414" font-weight="bold">REAR FACE IS A FLAT WALL.</text>
+<text x="24.00" y="56.00" font-size="2.80" text-anchor="start" fill="#141414">No rear door in Phase-1.</text>
+<text x="24.00" y="76.00" font-size="2.80" text-anchor="start" fill="#141414">Dashed lines = bed width 1711.</text>
+<text x="24.00" y="88.00" font-size="2.80" text-anchor="start" fill="#141414">Each side of the wall is</text>
+<text x="24.00" y="100.00" font-size="2.80" text-anchor="start" fill="#141414">+100 mm past the bed.</text>
+<text x="24.00" y="120.00" font-size="2.80" text-anchor="start" fill="#141414">Weep must leave the shell.</text>
+<text x="24.00" y="132.00" font-size="2.80" text-anchor="start" fill="#141414">Legs carry the occupied tail.</text>
+<text x="24.00" y="144.00" font-size="2.80" text-anchor="start" fill="#141414">See D-02 and D-03.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">S-04   REAR ELEVATION — VERTICAL FLAT BACK</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND TAPE  ·  JAY GO RAIL DRILL  ·  ENG TUBE/WELD  ·  OUTRIGGERS+LEGS+WEIGH  ·  HOSE  ·  HATCH  ·  GEN/AC PROVISION  ·  D-01…D-08</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  GATES UNSIGNED = DO NOT CUT  ·  mm  ·  2026-09-23  ·  SHEET 5 OF 18</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">S-04</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">SCALE 1:10</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>

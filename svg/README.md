@@ -55,4 +55,4 @@ cd /workspace/tamaraw-camper
 
 ## Disclaimer
 
-PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Field-measure before cutting steel. Fabricator discussion / design review only.
+PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Field-measure before cutting steel. R&D fabricator pack. Gates unsigned = do not cut.

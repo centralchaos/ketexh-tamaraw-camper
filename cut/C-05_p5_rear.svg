@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="C-05 P5 REAR WALL — INTENT OPENINGS NOT FROZEN">
+<title>C-05 — P5 REAR WALL — INTENT OPENINGS NOT FROZEN</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. R and D fabricator sheet. Gates unsigned = do not cut. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<text x="18.00" y="22.00" font-size="2.55" text-anchor="start" fill="#141414" font-weight="bold">ENVELOPE 1911 × H ≈ 1830 ESTIMATE. REAR WINDOW AND LOWER HATCH HAVE NO CUT SIZE.</text>
+<rect x="80.00" y="48.00" width="220.00" height="210.00" fill="#f4f4f4" stroke="#141414" stroke-width="0.6"/>
+<rect x="130.00" y="72.00" width="70.00" height="40.00" fill="none" stroke="#141414" stroke-width="0.4" stroke-dasharray="2.2 1.3"/>
+<rect x="120.00" y="178.00" width="90.00" height="50.00" fill="none" stroke="#141414" stroke-width="0.4" stroke-dasharray="2.2 1.3"/>
+<text x="190.00" y="269.98" font-size="2.80" text-anchor="middle" fill="#141414">1911 mm</text>
+<line x1="80.00" y1="272.00" x2="182.16" y2="272.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="197.84" y1="272.00" x2="300.00" y2="272.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="80.00,272.00 82.60,271.15 82.60,272.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="300.00,272.00 297.40,271.15 297.40,272.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="80.00" y1="259.20" x2="80.00" y2="273.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="300.00" y1="259.20" x2="300.00" y2="273.60" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="318.01" y="153.00" font-size="2.70" text-anchor="middle" fill="#141414" transform="rotate(-90 318.01 153.00)">H ≈ 1830 EST.</text>
+<line x1="314.00" y1="48.00" x2="314.00" y2="142.13" stroke="#141414" stroke-width="0.28" fill="none"/>
+<line x1="314.00" y1="163.87" x2="314.00" y2="258.00" stroke="#141414" stroke-width="0.28" fill="none"/>
+<polygon points="314.00,48.00 313.15,50.60 314.85,50.60" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<polygon points="314.00,258.00 313.15,255.40 314.85,255.40" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<line x1="301.20" y1="48.00" x2="315.60" y2="48.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="301.20" y1="258.00" x2="315.60" y2="258.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="88.00" y="242.60" font-size="2.15" text-anchor="start" fill="#141414" font-weight="bold">GRAIN / FACE</text>
+<line x1="88.00" y1="246.00" x2="110.00" y2="246.00" stroke="#141414" stroke-width="0.32" fill="none"/>
+<polygon points="110.00,246.00 107.40,245.15 107.40,246.85" fill="#141414" stroke="none" stroke-width="0.5" stroke-linejoin="miter"/>
+<text x="360.00" y="70.00" font-size="2.60" text-anchor="start" fill="#141414" font-weight="bold">UPPER DASHED</text>
+<text x="360.00" y="86.00" font-size="2.50" text-anchor="start" fill="#141414">REAR WINDOW</text>
+<text x="360.00" y="102.00" font-size="2.50" text-anchor="start" fill="#141414">INTENT TBD</text>
+<text x="360.00" y="118.00" font-size="2.50" text-anchor="start" fill="#9b1c1c">NOT A CUT FREEZE</text>
+<text x="360.00" y="146.00" font-size="2.60" text-anchor="start" fill="#141414" font-weight="bold">LOWER DASHED</text>
+<text x="360.00" y="162.00" font-size="2.50" text-anchor="start" fill="#141414">LOWER HATCH</text>
+<text x="360.00" y="178.00" font-size="2.50" text-anchor="start" fill="#141414">INTENT TBD — H-02</text>
+<text x="360.00" y="194.00" font-size="2.50" text-anchor="start" fill="#9b1c1c">NOT A CUT FREEZE</text>
+<text x="360.00" y="222.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">DO NOT SCALE EITHER</text>
+<text x="360.00" y="238.00" font-size="2.50" text-anchor="start" fill="#141414">OPENING.</text>
+<text x="18.00" y="400.00" font-size="2.60" text-anchor="start" fill="#141414">SYMBOLS ARE NOT LOCATED AND NOT SIZED. S-06 IS INTENT, NOT A PATTERN.</text>
+<text x="18.00" y="418.00" font-size="2.60" text-anchor="start" fill="#141414">BOTH EDGES EXCEED 1525. SPLICE TBD. SEE C-00.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">C-05   P5 REAR WALL — INTENT OPENINGS NOT FROZEN</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND TAPE  ·  JAY GO RAIL DRILL  ·  ENG TUBE/WELD  ·  OUTRIGGERS+LEGS+WEIGH  ·  HOSE  ·  HATCH  ·  GEN/AC PROVISION  ·  D-01…D-08</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  GATES UNSIGNED = DO NOT CUT  ·  mm  ·  2026-09-23  ·  SHEET 7 OF 25</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">C-05</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">DO NOT SCALE</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>
