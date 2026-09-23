@@ -14,6 +14,7 @@ A fabricator builds from this paper. A verbal brief is not the SoR. Do not scale
 4. Patterns, frame, door, and hatches in [`cut/`](cut/).
 5. Sequence, joints, holes, materials, BOM, and hose test in [`cut/shop/`](cut/shop/).
 6. Gates to sign before any cut: [`notes/commissioning-gates.md`](notes/commissioning-gates.md).
+7. Handoff gate: [`docs/qc/FAB-HANDOFF-GATE.md`](docs/qc/FAB-HANDOFF-GATE.md). SVG present ≠ cut-ready.
 
 Human audit of panels-to-cut and frames-to-form: [`inventory/CUT-FORM-REGISTER.md`](inventory/CUT-FORM-REGISTER.md).
 
@@ -52,6 +53,8 @@ Rejected: floor width 1912, over-cab 1215, entry 780 × 1550, photo-scale overal
 ## Residual NO-GO
 
 Do not cut until these are signed: as-found tape, Jay GO rail drill, Eng tube/weld, outriggers and legs, weigh before any kg, hose test, hatch frame, ladder, bumper, and the D-07 / D-08 provision rules. Generator and AC units are hooks, not BOM Done lines. No bolt grade, kW, BTU, or kilogram is released.
+
+Redefined Phase-1 plan, still CONDITIONAL / NO-GO cut: [`docs/qc/PHASE-PLAN-REDEF.md`](docs/qc/PHASE-PLAN-REDEF.md).
 
 ## Other trees
 
