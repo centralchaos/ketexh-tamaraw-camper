@@ -2,7 +2,7 @@
 
 **Stamp:** CONDITIONAL — Architect-locked. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.
 
-This is the only cut / envelope table for the blueprint pack. Sheets in `sheets/` repeat these figures and no others.
+The repository register is [`../DIMS.md`](../DIMS.md). This file repeats it for the elevation set. Sheets in `sheets/` use these figures and no others. Floor width is **1911**. Entry target is **700 × 1550**, field locate. Over-cab is **≈ 1223**.
 
 ## Chassis (TMP LWB dropside — verify on the VIN)
 
@@ -46,7 +46,7 @@ Vertical estimates close (roof 2500, exterior 1830, loft 700) only if this vehic
 
 S-06 and S-07 repeat the envelope above. They do not add a length, a width, or a height. Jay's renders are design intent. They are not farm-ready and they are not cut geometry.
 
-Phase-2 solar, AC, awning, seats, and table are dashed on **S-07 only**. They are not a cut list and not a BOM.
+Phase-2 solar, awning, and seats stay dashed hooks on **S-07**. The AC curb and the generator bay are provisions on **S-08**, **D-07**, and **D-08**. The units are not a cut list and not a BOM line.
 
 ## Not adopted
 

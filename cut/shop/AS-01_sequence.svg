@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="AS-01 ASSEMBLY SEQUENCE — PHASE-1 SHELL">
+<title>AS-01 — ASSEMBLY SEQUENCE — PHASE-1 SHELL</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. R and D fabricator sheet. Gates unsigned = do not cut. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<text x="18.00" y="22.00" font-size="2.60" text-anchor="start" fill="#141414" font-weight="bold">STOP AT EVERY HOLD. A LATER STEP DOES NOT WAIVE AN EARLIER GATE.</text>
+<rect x="16.00" y="34.00" width="590.00" height="18.50" fill="#e6e6e6" stroke="none" stroke-width="0.35"/>
+<rect x="16.00" y="34.00" width="590.00" height="351.50" fill="none" stroke="#141414" stroke-width="0.35"/>
+<line x1="56.00" y1="34.00" x2="56.00" y2="385.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="396.00" y1="34.00" x2="396.00" y2="385.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="506.00" y1="34.00" x2="506.00" y2="385.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="52.50" x2="606.00" y2="52.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="71.00" x2="606.00" y2="71.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="89.50" x2="606.00" y2="89.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="108.00" x2="606.00" y2="108.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="126.50" x2="606.00" y2="126.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="145.00" x2="606.00" y2="145.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="163.50" x2="606.00" y2="163.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="182.00" x2="606.00" y2="182.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="200.50" x2="606.00" y2="200.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="219.00" x2="606.00" y2="219.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="237.50" x2="606.00" y2="237.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="256.00" x2="606.00" y2="256.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="274.50" x2="606.00" y2="274.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="293.00" x2="606.00" y2="293.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="311.50" x2="606.00" y2="311.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="330.00" x2="606.00" y2="330.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="348.50" x2="606.00" y2="348.50" stroke="#141414" stroke-width="0.22" fill="none"/>
+<line x1="16.00" y1="367.00" x2="606.00" y2="367.00" stroke="#141414" stroke-width="0.22" fill="none"/>
+<text x="17.40" y="44.02" font-size="2.25" text-anchor="start" fill="#141414" font-weight="bold">STEP</text>
+<text x="57.40" y="44.02" font-size="2.25" text-anchor="start" fill="#141414" font-weight="bold">ACTION</text>
+<text x="397.40" y="44.02" font-size="2.25" text-anchor="start" fill="#141414" font-weight="bold">SHEET</text>
+<text x="507.40" y="44.02" font-size="2.25" text-anchor="start" fill="#141414" font-weight="bold">HOLD</text>
+<text x="17.40" y="62.52" font-size="2.25" text-anchor="start" fill="#141414">01</text>
+<text x="57.40" y="62.52" font-size="2.25" text-anchor="start" fill="#141414">Tape bed, rails, cab roof, VIN. Freeze traveler.</text>
+<text x="397.40" y="62.52" font-size="2.25" text-anchor="start" fill="#141414">DIMS</text>
+<text x="507.40" y="62.52" font-size="2.25" text-anchor="start" fill="#141414">AS-FOUND</text>
+<text x="17.40" y="81.02" font-size="2.25" text-anchor="start" fill="#141414">02</text>
+<text x="57.40" y="81.02" font-size="2.25" text-anchor="start" fill="#141414">Cut floor longs 3647. Do not drill.</text>
+<text x="397.40" y="81.02" font-size="2.25" text-anchor="start" fill="#141414">C-FR F-01</text>
+<text x="507.40" y="81.02" font-size="2.25" text-anchor="start" fill="#141414">ENG section</text>
+<text x="17.40" y="99.52" font-size="2.25" text-anchor="start" fill="#141414">03</text>
+<text x="57.40" y="99.52" font-size="2.25" text-anchor="start" fill="#141414">Dry-fit bed-tail splice. Weld after Eng GO.</text>
+<text x="397.40" y="99.52" font-size="2.25" text-anchor="start" fill="#141414">J-01</text>
+<text x="507.40" y="99.52" font-size="2.25" text-anchor="start" fill="#141414">ENG weld</text>
+<text x="17.40" y="118.02" font-size="2.25" text-anchor="start" fill="#141414">04</text>
+<text x="57.40" y="118.02" font-size="2.25" text-anchor="start" fill="#141414">Outriggers from as-found pitch.</text>
+<text x="397.40" y="118.02" font-size="2.25" text-anchor="start" fill="#141414">F-01 D-01</text>
+<text x="507.40" y="118.02" font-size="2.25" text-anchor="start" fill="#141414">AS-FOUND</text>
+<text x="17.40" y="136.51" font-size="2.25" text-anchor="start" fill="#141414">05</text>
+<text x="57.40" y="136.51" font-size="2.25" text-anchor="start" fill="#141414">Drill rails only after Jay GO.</text>
+<text x="397.40" y="136.51" font-size="2.25" text-anchor="start" fill="#141414">FS-01</text>
+<text x="507.40" y="136.51" font-size="2.25" text-anchor="start" fill="#141414">JAY GO</text>
+<text x="17.40" y="155.01" font-size="2.25" text-anchor="start" fill="#141414">06</text>
+<text x="57.40" y="155.01" font-size="2.25" text-anchor="start" fill="#141414">Bolt frame to rails with backing plates.</text>
+<text x="397.40" y="155.01" font-size="2.25" text-anchor="start" fill="#141414">C-PL</text>
+<text x="507.40" y="155.01" font-size="2.25" text-anchor="start" fill="#141414">JAY GO</text>
+<text x="17.40" y="173.51" font-size="2.25" text-anchor="start" fill="#141414">07</text>
+<text x="57.40" y="173.51" font-size="2.25" text-anchor="start" fill="#141414">Stand posts. Cut length = as-found H.</text>
+<text x="397.40" y="173.51" font-size="2.25" text-anchor="start" fill="#141414">F-02</text>
+<text x="507.40" y="173.51" font-size="2.25" text-anchor="start" fill="#141414">AS-FOUND H</text>
+<text x="17.40" y="192.01" font-size="2.25" text-anchor="start" fill="#141414">08</text>
+<text x="57.40" y="192.01" font-size="2.25" text-anchor="start" fill="#141414">Sills and mid posts. Mid count = Eng.</text>
+<text x="397.40" y="192.01" font-size="2.25" text-anchor="start" fill="#141414">F-02</text>
+<text x="507.40" y="192.01" font-size="2.25" text-anchor="start" fill="#141414">ENG</text>
+<text x="17.40" y="210.51" font-size="2.25" text-anchor="start" fill="#141414">09</text>
+<text x="57.40" y="210.51" font-size="2.25" text-anchor="start" fill="#141414">Over-cab ring. Cab roof is not the beam.</text>
+<text x="397.40" y="210.51" font-size="2.25" text-anchor="start" fill="#141414">J-01</text>
+<text x="507.40" y="210.51" font-size="2.25" text-anchor="start" fill="#141414">ENG</text>
+<text x="17.40" y="229.01" font-size="2.25" text-anchor="start" fill="#141414">10</text>
+<text x="57.40" y="229.01" font-size="2.25" text-anchor="start" fill="#141414">Close hatch frame before any roof opening.</text>
+<text x="397.40" y="229.01" font-size="2.25" text-anchor="start" fill="#141414">F-03</text>
+<text x="507.40" y="229.01" font-size="2.25" text-anchor="start" fill="#141414">D-04</text>
+<text x="17.40" y="247.51" font-size="2.25" text-anchor="start" fill="#141414">11</text>
+<text x="57.40" y="247.51" font-size="2.25" text-anchor="start" fill="#141414">Hang skins. Leave dashed openings uncut.</text>
+<text x="397.40" y="247.51" font-size="2.25" text-anchor="start" fill="#141414">C-01…C-06</text>
+<text x="507.40" y="247.51" font-size="2.25" text-anchor="start" fill="#141414">FIELD</text>
+<text x="17.40" y="266.01" font-size="2.25" text-anchor="start" fill="#141414">12</text>
+<text x="57.40" y="266.01" font-size="2.25" text-anchor="start" fill="#141414">Field-locate entry 700×1550 on P2.</text>
+<text x="397.40" y="266.01" font-size="2.25" text-anchor="start" fill="#141414">DR-02</text>
+<text x="507.40" y="266.01" font-size="2.25" text-anchor="start" fill="#141414">FIELD</text>
+<text x="17.40" y="284.51" font-size="2.25" text-anchor="start" fill="#141414">13</text>
+<text x="57.40" y="284.51" font-size="2.25" text-anchor="start" fill="#141414">Door leaf. Hinges to the jamb post.</text>
+<text x="397.40" y="284.51" font-size="2.25" text-anchor="start" fill="#141414">DR-01</text>
+<text x="507.40" y="284.51" font-size="2.25" text-anchor="start" fill="#141414">ENG</text>
+<text x="17.40" y="303.01" font-size="2.25" text-anchor="start" fill="#141414">14</text>
+<text x="57.40" y="303.01" font-size="2.25" text-anchor="start" fill="#141414">Hatch leaves. Sizes still TBD.</text>
+<text x="397.40" y="303.01" font-size="2.25" text-anchor="start" fill="#141414">H-01 H-02</text>
+<text x="507.40" y="303.01" font-size="2.25" text-anchor="start" fill="#141414">D-04</text>
+<text x="17.40" y="321.51" font-size="2.25" text-anchor="start" fill="#141414">15</text>
+<text x="57.40" y="321.51" font-size="2.25" text-anchor="start" fill="#141414">Seal. Hose test.</text>
+<text x="397.40" y="321.51" font-size="2.25" text-anchor="start" fill="#141414">QA-01</text>
+<text x="507.40" y="321.51" font-size="2.25" text-anchor="start" fill="#141414">HOSE</text>
+<text x="17.40" y="340.01" font-size="2.25" text-anchor="start" fill="#141414">16</text>
+<text x="57.40" y="340.01" font-size="2.25" text-anchor="start" fill="#141414">Legs and bumper after D-02 and D-06.</text>
+<text x="397.40" y="340.01" font-size="2.25" text-anchor="start" fill="#141414">D-02 D-06</text>
+<text x="507.40" y="340.01" font-size="2.25" text-anchor="start" fill="#141414">GATES</text>
+<text x="17.40" y="358.51" font-size="2.25" text-anchor="start" fill="#141414">17</text>
+<text x="57.40" y="358.51" font-size="2.25" text-anchor="start" fill="#141414">Gen bay and AC curb provisions only.</text>
+<text x="397.40" y="358.51" font-size="2.25" text-anchor="start" fill="#141414">D-07 D-08</text>
+<text x="507.40" y="358.51" font-size="2.25" text-anchor="start" fill="#141414">NOT UNITS</text>
+<text x="17.40" y="377.01" font-size="2.25" text-anchor="start" fill="#141414">18</text>
+<text x="57.40" y="377.01" font-size="2.25" text-anchor="start" fill="#141414">Weigh. Placard stays blank until then.</text>
+<text x="397.40" y="377.01" font-size="2.25" text-anchor="start" fill="#141414">D-02</text>
+<text x="507.40" y="377.01" font-size="2.25" text-anchor="start" fill="#141414">WEIGH</text>
+<text x="18.00" y="430.00" font-size="2.45" text-anchor="start" fill="#141414" font-weight="bold">STEP 17 DOES NOT BUY A GENERATOR OR AN AC UNIT. PARKED-ONLY GEN RUN. OPEN HATCH IS PARKED ONLY.</text>
+<text x="18.00" y="448.00" font-size="2.45" text-anchor="start" fill="#141414">OAH ≤ 2500 IS HATCH CLOSED, AND WITH THE CURB INSTALLED IF THAT PROVISION IS BUILT.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">AS-01   ASSEMBLY SEQUENCE — PHASE-1 SHELL</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND TAPE  ·  JAY GO RAIL DRILL  ·  ENG TUBE/WELD  ·  OUTRIGGERS+LEGS+WEIGH  ·  HOSE  ·  HATCH  ·  GEN/AC PROVISION  ·  D-01…D-08</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  GATES UNSIGNED = DO NOT CUT  ·  mm  ·  2026-09-23  ·  SHEET 20 OF 25</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">AS-01</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">—</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>

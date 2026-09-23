@@ -1,10 +1,10 @@
 # KE-Texh / TAMARAW — Phase-1 SHELL blueprint pack
 
-Fabricator discussion drawings for the weatherproof shell only: box, over-cab loft, and openings. No interior fit-out.
+R&D fabricator drawings for the weatherproof shell only: box, over-cab loft, and openings. No interior fit-out. Build from the sheets. A verbal brief is not the SoR.
 
-**STAMP: CONDITIONAL — DISCUSS. NO-GO cut steel until the gates below are signed.**
+**STAMP: CONDITIONAL — NO-GO CUT STEEL until the gates below are signed.** Gates unsigned = do not cut.
 
-**PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.** Prototype only. This pack is not an LTO submission, a weight certificate, or a bolt-grade release.
+**PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.** This pack is not an LTO submission, a weight certificate, or a bolt-grade release.
 
 ## Sheet index
 
@@ -17,13 +17,16 @@ Fabricator discussion drawings for the weatherproof shell only: box, over-cab lo
 | S-04 | `sheets/S-04_rear_elevation.svg` | Rear elevation, vertical flat back, 1:10 |
 | S-05 | `sheets/S-05_section.svg` | Section A–A, over-cab and tail, 1:10 |
 | S-06 | `sheets/S-06_rear_intent.svg` | Rear intent: window, lower hatch, ladder, lamps, bumper |
-| S-07 | `sheets/S-07_roof_plan.svg` | Roof plan: lounge cutout; Phase-2 solar / AC / awning dashed only |
+| S-07 | `sheets/S-07_roof_plan.svg` | Roof plan: lounge cutout; solar and awning dashed hooks |
+| S-08 | `sheets/S-08_service_plan.svg` | AC curb and generator bay — provisions, not the units |
 | D-01 | `sheets/D-01_outriggers.svg` | Bolted outriggers, hole schedule, Jay GO |
 | D-02 | `sheets/D-02_landing_legs.svg` | Landing legs under the +1000 tail, blank kg placard |
 | D-03 | `sheets/D-03_hose_rain.svg` | Hose / rain joints, FAIL-IF |
 | D-04 | `sheets/D-04_hatch_lounge.svg` | Roof hatch and lounge frame, sealed to structure |
 | D-05 | `sheets/D-05_ladder_mounts.svg` | Wall-ladder mounts into posts / sills, not a lift |
 | D-06 | `sheets/D-06_bumper_splash.svg` | Bumper, splash, hitch vs leg swing under the +1000 tail |
+| D-07 | `sheets/D-07_generator.svg` | Generator bay provision. Unit is not cut Done. |
+| D-08 | `sheets/D-08_ac.svg` | AC curb provision. Unit is not cut Done. |
 | A-05 | `sheets/A-05_shell_assembly.svg` | Panel assembly P1–P8, 1:15 |
 
 PNG previews of every sheet are in `previews/`. Review copies are in `artifacts/`. The full pack archive is `artifacts/tamaraw-blueprint-pack.tar.gz`.
@@ -60,7 +63,7 @@ Photo-scale REV A (overall length 5942) is **not a cut value** and is not drawn 
 5. **Hatch frame** — D-04. FAIL-IF an open cut has no sealed frame, the rail is missing, water enters the lounge, or the hatch is open on the road. Occupied roof is parked only. Hose the closed perimeter before any parked-lounge claim.
 6. **Ladder** — D-05. Roof access only. FAIL-IF the ladder is used as a jack or a lift, or the mounts loosen after vibration.
 7. **Bumper / splash** — D-06. Keep the weep. Hitch clear of the landing-leg swing. FAIL-IF water is trapped under the occupied tail, or glands are wet at the bumper.
-8. **Prototype only.** OAH ≤ 2500 means the hatch is closed. Renders are not farm-ready.
+8. **Eng tube / weld.** Section and weld size stay TBD until Eng GO. Do not invent them. OAH ≤ 2500 means the hatch is closed. Renders are not cut geometry.
 
 Bolt grade, plate size, weld size, sealant, and max kg are **TBD**. The Jay GO box is drawn empty on every sheet. Do not invent those numbers.
 
@@ -70,7 +73,9 @@ Bolt grade, plate size, weld size, sealant, and max kg are **TBD**. The Jay GO b
 - **FIELD IoT** — splash, glands, hose test, stands, blank placard, lounge water, road hatch, ladder vibration.
 - **FSD** — fabricator shop decision. Do not substitute a grade, a weld size, or a kilogram.
 
-Phase-1 cut list is the shell, the openings, and the mount plates / rails. Seats, table, AC, solar, and awning are Phase-2 and are drawn **dashed on S-07 only**. They are not fab Done. S-06 opening sizes are intent, not a cut freeze.
+Phase-1 cut list is the shell, the openings, and the mount plates / rails. Seats, table, solar, and awning stay dashed hooks on S-07. The AC curb and the generator bay are provisions on S-08, D-07, and D-08. The units are not fab Done and not a buy list. S-06 opening sizes are intent, not a cut freeze.
+
+The repository reading order is [`../README.md`](../README.md). The single envelope register is [`../DIMS.md`](../DIMS.md).
 
 ## Regenerate
 

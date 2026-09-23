@@ -40,4 +40,4 @@ See `A06_bolt_mount_notes.md`. Summary: outriggers → chassis rails; landing le
 
 ## Contact / build rule
 
-Field-measure bed rails, cab roof, and VIN plate before laser/plasma. This pack is fabricator discussion / design review only.
+Field-measure bed rails, cab roof, and VIN plate before laser/plasma. R&D fabricator pack. Gates unsigned = do not cut. A verbal brief is not the SoR.

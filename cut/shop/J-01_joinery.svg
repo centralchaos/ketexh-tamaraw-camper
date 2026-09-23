@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="841mm" height="594mm" viewBox="0 0 841 594" role="img" aria-label="J-01 JOINERY — LOAD IN RAILS AND POSTS, NOT SKIN">
+<title>J-01 — JOINERY — LOAD IN RAILS AND POSTS, NOT SKIN</title>
+<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. R and D fabricator sheet. Gates unsigned = do not cut. NO-GO cut steel until gates.</desc>
+<defs></defs>
+<rect width="841" height="594" fill="#ffffff"/>
+<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">
+<text x="18.00" y="22.00" font-size="2.60" text-anchor="start" fill="#141414" font-weight="bold">WELD SIZE TBD. TUBE SECTION TBD. EMPTY ENG GO = DO NOT WELD.</text>
+<rect x="16.00" y="40.00" width="390.00" height="170.00" fill="#ffffff" stroke="#141414" stroke-width="0.45"/>
+<rect x="16.00" y="40.00" width="390.00" height="8.00" fill="#141414" stroke="none" stroke-width="0.35"/>
+<text x="18.50" y="45.70" font-size="2.70" text-anchor="start" fill="#ffffff" font-weight="bold">1  BED — TAIL SPLICE</text>
+<line x1="40.00" y1="110.00" x2="186.00" y2="110.00" stroke="#141414" stroke-width="0.9" fill="none"/>
+<line x1="106.00" y1="98.00" x2="106.00" y2="122.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="206.00" y="80.00" font-size="2.35" text-anchor="start" fill="#141414">Two longs in line. Fishplate PL-08 both sides.</text>
+<text x="206.00" y="98.00" font-size="2.35" text-anchor="start" fill="#141414">Plate size TBD. Weld size TBD.</text>
+<text x="206.00" y="116.00" font-size="2.35" text-anchor="start" fill="#141414" font-weight="bold">Load stays in the rail line.</text>
+<rect x="206.00" y="140.00" width="7.00" height="7.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="220.00" y="146.00" font-size="2.30" text-anchor="start" fill="#9b1c1c" font-weight="bold">ENG GO UNSIGNED</text>
+<rect x="420.00" y="40.00" width="390.00" height="170.00" fill="#ffffff" stroke="#141414" stroke-width="0.45"/>
+<rect x="420.00" y="40.00" width="390.00" height="8.00" fill="#141414" stroke="none" stroke-width="0.35"/>
+<text x="422.50" y="45.70" font-size="2.70" text-anchor="start" fill="#ffffff" font-weight="bold">2  CAB — OVER-CAB</text>
+<line x1="444.00" y1="110.00" x2="590.00" y2="110.00" stroke="#141414" stroke-width="0.9" fill="none"/>
+<line x1="510.00" y1="98.00" x2="510.00" y2="122.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="610.00" y="80.00" font-size="2.35" text-anchor="start" fill="#141414">Gap and gasket TBD.</text>
+<text x="610.00" y="98.00" font-size="2.35" text-anchor="start" fill="#141414">Loft load goes to the posts.</text>
+<text x="610.00" y="116.00" font-size="2.35" text-anchor="start" fill="#141414" font-weight="bold">Cab skin is not the beam.</text>
+<rect x="610.00" y="140.00" width="7.00" height="7.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="624.00" y="146.00" font-size="2.30" text-anchor="start" fill="#9b1c1c" font-weight="bold">ENG GO UNSIGNED</text>
+<rect x="16.00" y="230.00" width="390.00" height="170.00" fill="#ffffff" stroke="#141414" stroke-width="0.45"/>
+<rect x="16.00" y="230.00" width="390.00" height="8.00" fill="#141414" stroke="none" stroke-width="0.35"/>
+<text x="18.50" y="235.70" font-size="2.70" text-anchor="start" fill="#ffffff" font-weight="bold">3  POST TO SILL</text>
+<line x1="40.00" y1="300.00" x2="186.00" y2="300.00" stroke="#141414" stroke-width="0.9" fill="none"/>
+<line x1="106.00" y1="288.00" x2="106.00" y2="312.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="206.00" y="270.00" font-size="2.35" text-anchor="start" fill="#141414">Post lands on the sill.</text>
+<text x="206.00" y="288.00" font-size="2.35" text-anchor="start" fill="#141414">Bolt or weld TBD.</text>
+<text x="206.00" y="306.00" font-size="2.35" text-anchor="start" fill="#141414" font-weight="bold">Outer sheet is cladding.</text>
+<rect x="206.00" y="330.00" width="7.00" height="7.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="220.00" y="336.00" font-size="2.30" text-anchor="start" fill="#9b1c1c" font-weight="bold">ENG GO UNSIGNED</text>
+<rect x="420.00" y="230.00" width="390.00" height="170.00" fill="#ffffff" stroke="#141414" stroke-width="0.45"/>
+<rect x="420.00" y="230.00" width="390.00" height="8.00" fill="#141414" stroke="none" stroke-width="0.35"/>
+<text x="422.50" y="235.70" font-size="2.70" text-anchor="start" fill="#ffffff" font-weight="bold">4  ROOF TO WALL</text>
+<line x1="444.00" y1="300.00" x2="590.00" y2="300.00" stroke="#141414" stroke-width="0.9" fill="none"/>
+<line x1="510.00" y1="288.00" x2="510.00" y2="312.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="610.00" y="270.00" font-size="2.35" text-anchor="start" fill="#141414">Roof rail bears on the post head.</text>
+<text x="610.00" y="288.00" font-size="2.35" text-anchor="start" fill="#141414">Lap or gasket TBD. No pocket.</text>
+<text x="610.00" y="306.00" font-size="2.35" text-anchor="start" fill="#141414" font-weight="bold">See D-03 before hose test.</text>
+<rect x="610.00" y="330.00" width="7.00" height="7.00" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="624.00" y="336.00" font-size="2.30" text-anchor="start" fill="#9b1c1c" font-weight="bold">ENG GO UNSIGNED</text>
+<text x="18.00" y="430.00" font-size="2.60" text-anchor="start" fill="#9b1c1c" font-weight="bold">FAIL-IF ANY OF THESE JOINTS IS MADE IN THE OUTER SKIN ONLY.</text>
+<text x="18.00" y="450.00" font-size="2.50" text-anchor="start" fill="#141414">GENERATOR BAY AND AC CURB USE THE SAME RULE: STRUCTURE, NOT SKIN. SEE D-07 AND D-08.</text>
+<rect x="8.00" y="8.00" width="825.00" height="578.00" fill="none" stroke="#141414" stroke-width="0.7"/>
+<rect x="10.00" y="506.00" width="821.00" height="78.00" fill="#ffffff" stroke="#141414" stroke-width="0.6"/>
+<line x1="640.00" y1="506.00" x2="640.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<line x1="748.00" y1="506.00" x2="748.00" y2="584.00" stroke="#141414" stroke-width="0.4" fill="none"/>
+<text x="18.00" y="522.00" font-size="3.70" text-anchor="start" fill="#141414" font-weight="bold">KE-Texh / TAMARAW  ·  PHASE-1 SHELL</text>
+<text x="18.00" y="535.00" font-size="3.15" text-anchor="start" fill="#141414">J-01   JOINERY — LOAD IN RAILS AND POSTS, NOT SKIN</text>
+<text x="18.00" y="550.00" font-size="3.35" text-anchor="start" fill="#9b1c1c" font-weight="bold">PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+<text x="18.00" y="564.00" font-size="2.45" text-anchor="start" fill="#141414">GATES: AS-FOUND TAPE  ·  JAY GO RAIL DRILL  ·  ENG TUBE/WELD  ·  OUTRIGGERS+LEGS+WEIGH  ·  HOSE  ·  HATCH  ·  GEN/AC PROVISION  ·  D-01…D-08</text>
+<text x="18.00" y="576.00" font-size="2.40" text-anchor="start" fill="#141414">REV CONDITIONAL  ·  GATES UNSIGNED = DO NOT CUT  ·  mm  ·  2026-09-23  ·  SHEET 21 OF 25</text>
+<text x="648.00" y="524.00" font-size="2.40" text-anchor="start" fill="#141414">SHEET</text>
+<text x="648.00" y="540.00" font-size="5.00" text-anchor="start" fill="#141414" font-weight="bold">J-01</text>
+<text x="648.00" y="556.00" font-size="3.20" text-anchor="start" fill="#141414">NTS</text>
+<text x="648.00" y="572.00" font-size="2.30" text-anchor="start" fill="#141414">VIEWS NAMED ON SHEET</text>
+<rect x="762.00" y="522.00" width="6.50" height="6.50" fill="#ffffff" stroke="#141414" stroke-width="0.4"/>
+<text x="772.00" y="528.00" font-size="2.70" text-anchor="start" fill="#141414" font-weight="bold">JAY GO</text>
+<text x="756.00" y="544.00" font-size="2.50" text-anchor="start" fill="#141414" font-weight="bold">RAIL DRILL</text>
+<text x="756.00" y="558.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">UNSIGNED</text>
+<text x="756.00" y="570.00" font-size="2.40" text-anchor="start" fill="#9b1c1c">= NO-GO</text>
+</g>
+</svg>

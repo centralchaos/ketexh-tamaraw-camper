@@ -27,7 +27,7 @@ def esc(text: str) -> str:
 
 
 class Sheet:
-    def __init__(self, sid: str, title: str, scale_label: str, sheet_no: int, sheet_count: int = 15):
+    def __init__(self, sid: str, title: str, scale_label: str, sheet_no: int, sheet_count: int = 18):
         self.sid = sid
         self.title = title
         self.scale_label = scale_label
@@ -358,14 +358,14 @@ class Sheet:
         self.text(
             18,
             564,
-            "GATES: AS-FOUND  ·  JAY GO RAIL DRILL  ·  OUTRIGGERS+LEGS+kg  ·  HOSE/RAIN  ·  HATCH  ·  LADDER  ·  BUMPER/SPLASH  ·  D-01…D-06  ·  PROTOTYPE ONLY",
+            "GATES: AS-FOUND TAPE  ·  JAY GO RAIL DRILL  ·  ENG TUBE/WELD  ·  OUTRIGGERS+LEGS+WEIGH  ·  HOSE  ·  HATCH  ·  GEN/AC PROVISION  ·  D-01…D-08",
             2.45,
             layer="frame",
         )
         self.text(
             18,
             576,
-            f"REV CONDITIONAL  ·  DISCUSSION ONLY  ·  NO-GO CUT STEEL UNTIL GATES  ·  mm  ·  2026-09-23  ·  SHEET {self.sheet_no} OF {self.sheet_count}",
+            f"REV CONDITIONAL  ·  GATES UNSIGNED = DO NOT CUT  ·  mm  ·  2026-09-23  ·  SHEET {self.sheet_no} OF {self.sheet_count}",
             2.4,
             layer="frame",
         )
@@ -393,7 +393,7 @@ class Sheet:
             f"<title>{esc(self.sid + ' — ' + self.title)}</title>\n"
             "<desc>KE-Texh TAMARAW Phase-1 SHELL. REV CONDITIONAL. "
             "PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. "
-            "Prototype discussion sheet. NO-GO cut steel until gates.</desc>\n"
+            "R and D fabricator sheet. Gates unsigned = do not cut. NO-GO cut steel until gates.</desc>\n"
             f"<defs>{defs}</defs>\n"
             f'<rect width="{self.W:.0f}" height="{self.H:.0f}" fill="#ffffff"/>\n'
             '<g font-family="DejaVu Sans, sans-serif" fill="#141414" stroke-linecap="square">\n'

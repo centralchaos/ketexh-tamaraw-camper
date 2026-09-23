@@ -573,7 +573,7 @@ def fillet(sheet: Sheet, x, y):
 # ---------------------------------------------------------------------------
 
 def sheet_d01() -> Sheet:
-    s = Sheet("D-01", "BOLTED OUTRIGGERS TO BED RAILS — SHELL MODULE", "NTS — DO NOT SCALE", 9)
+    s = Sheet("D-01", "BOLTED OUTRIGGERS TO BED RAILS — SHELL MODULE", "NTS — DO NOT SCALE", 10)
     frame(s, 16, 16, 500, 250, "1  PLAN — OUTRIGGERS ON BED RAILS (NTS, DO NOT SCALE)")
 
     # Schematic plan inside the frame
@@ -669,7 +669,7 @@ def sheet_d01() -> Sheet:
                     "Any loom sits above the weep.",
                     "Do not pocket water on the plate.",
                     "Hose test of this joint: D-03.",
-                    "Prototype only.",
+                    "R&D build. Not an LTO release.",
                 ],
             ),
             (
@@ -695,7 +695,7 @@ def sheet_d01() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_d02() -> Sheet:
-    s = Sheet("D-02", "LANDING LEGS UNDER +1000 TAIL — BLANK kg PLACARD", "NTS — DO NOT SCALE", 10)
+    s = Sheet("D-02", "LANDING LEGS UNDER +1000 TAIL — BLANK kg PLACARD", "NTS — DO NOT SCALE", 11)
     frame(s, 16, 16, 460, 268, "1  TAIL +1000 — LEG STOWED AND DEPLOYED (NTS)")
 
     # Ground and tail sill
@@ -766,7 +766,7 @@ def sheet_d02() -> Sheet:
                     "Pin holes: shell module, not the rail.",
                     "Stowed leg must clear the wheel arc.",
                     "Occupied only on stands.",
-                    "Prototype only.",
+                    "R&D build. Not an LTO release.",
                 ],
             ),
             (
@@ -809,7 +809,7 @@ def sheet_d02() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_d03() -> Sheet:
-    s = Sheet("D-03", "HOSE / RAIN JOINT — FAIL-IF", "NTS — DO NOT SCALE", 11)
+    s = Sheet("D-03", "HOSE / RAIN JOINT — FAIL-IF", "NTS — DO NOT SCALE", 12)
     hatch_defs(s)
     frame(s, 16, 16, 400, 200, "1  BED–TAIL SILL (NTS)")
     # Two floor ends, seal, weep, splash box
@@ -895,7 +895,7 @@ def sheet_d03() -> Sheet:
                     "No interior fit-out on a wet joint.",
                     "Pressure is TBD — do not invent one.",
                     "This is not an LTO rain approval.",
-                    "Prototype only. Jay GO still on D-01.",
+                    "R&D build. Jay GO still on D-01.",
                 ],
             ),
         ],
@@ -908,7 +908,7 @@ def sheet_d03() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_a05() -> Sheet:
-    s = Sheet("A-05", "PANEL ASSEMBLY P1–P8 — EXPLODED, SHELL ONLY", "SCALE 1:15", 15)
+    s = Sheet("A-05", "PANEL ASSEMBLY P1–P8 — EXPLODED, SHELL ONLY", "SCALE 1:15", 18)
     k = 1.0 / 15.0
     # Exploded side: loft, then living wall, gaps are explosion gaps.
     roof_x = 36
@@ -984,14 +984,14 @@ def sheet_a05() -> Sheet:
         "P7  Entry opening  700 × 1550 field locate",
         "P8  Windows  body ×2 + over-cab window",
         "Out of scope: interior, wet systems,",
-        "electrics, solar, AC, awning (Phase-2).",
+        "AC/gen units not cut. See D-07 D-08.",
     ]
     yy = 36
     for ln in parts:
         s.text(530, yy, ln, 2.7)
         yy += 12
     s.text(530, 210, "Mount / weep / hatch / ladder:", 2.7, weight="bold")
-    s.text(530, 222, "D-01…D-06.  Not an interior.", 2.7)
+    s.text(530, 222, "D-01…D-08.  Not an interior.", 2.7)
 
     frame(s, 520, 252, 305, 140, "OPENINGS — FIELD LOCATE")
     s.rect(540, 276, 28, 70, fill="none", stroke="#141414", sw=0.4, dash="2 1.2")
@@ -1114,7 +1114,7 @@ def sheet_s07() -> Sheet:
     s.text(cut_x + 4, cut_y + cut_h + 14, "SEATS / TABLE — INTENT ONLY", 2.2)
     s.text(bed_x + 36, top + 58, "SOLAR — PHASE-2", 2.6)
     s.text(bed_x + 36, top + 70, "DASHED — NOT BOM", 2.4)
-    s.text(bed_x + 196, top + 78, "AC P2", 2.4)
+    s.text(bed_x + 192, top + 80, "CURB — S-08", 2.3)
     s.text(bed_x + 36, bot - 34, "AWNING — PHASE-2 DASHED", 2.4)
     s.text(bed_rear_x + 16, top + 40, "TAIL +1000", 2.7, weight="bold")
     s.text(bed_rear_x + 16, top + 54, "SEE S-02", 2.4)
@@ -1127,8 +1127,8 @@ def sheet_s07() -> Sheet:
 
     s.text(24, 448, "CUTOUT, HATCH, AND RAILS ARE DESIGN INTENT. SIZES TBD. SEE D-04. NOT A CUT FREEZE.", 2.6)
     s.text(24, 462, "OAH ≤ 2500 IS HATCH CLOSED. OPEN HATCH AND OCCUPIED ROOF ARE PARKED ONLY.", 2.6, weight="bold")
-    s.text(24, 476, "DASHED SOLAR / AC / AWNING ARE PHASE-2 HOOKS. NOT A CUT LIST. NOT A BOM. NOT FAB DONE.", 2.6)
-    s.text(24, 490, "SEATS AND TABLE ARE INTENT ONLY. ENVELOPE DIMS MATCH DIMS.md. RENDERS ARE NOT FARM-READY.", 2.6)
+    s.text(24, 476, "SOLAR AND AWNING STAY DASHED PHASE-2 HOOKS. NOT A CUT LIST. NOT A BOM.", 2.6)
+    s.text(24, 490, "AC CURB AND GEN BAY: S-08 / D-07 / D-08. UNITS ARE NOT CUT DONE. SEATS ARE INTENT ONLY.", 2.6)
     return finish(s)
 
 
@@ -1137,7 +1137,7 @@ def sheet_s07() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_d04() -> Sheet:
-    s = Sheet("D-04", "ROOF HATCH AND LOUNGE FRAME — SEALED TO STRUCTURE", "NTS — DO NOT SCALE", 12)
+    s = Sheet("D-04", "ROOF HATCH AND LOUNGE FRAME — SEALED TO STRUCTURE", "NTS — DO NOT SCALE", 13)
     hatch_defs(s)
     frame(s, 16, 16, 400, 248, "1  PLAN — FRAMED OPENING (NTS, SIZE TBD)")
     s.rect(70, 56, 250, 160, fill="none", stroke="#141414", sw=0.4)
@@ -1220,7 +1220,7 @@ def sheet_d04() -> Sheet:
                     "while the hatch is unsealed.",
                     "Jay GO on D-01 still governs",
                     "any chassis-rail hole.",
-                    "Prototype only. Not farm-ready.",
+                    "R&D build. Renders are not cut geometry.",
                 ],
             ),
         ],
@@ -1233,7 +1233,7 @@ def sheet_d04() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_d05() -> Sheet:
-    s = Sheet("D-05", "WALL LADDER MOUNTS — ROOF ACCESS, NOT A LIFT", "NTS — DO NOT SCALE", 13)
+    s = Sheet("D-05", "WALL LADDER MOUNTS — ROOF ACCESS, NOT A LIFT", "NTS — DO NOT SCALE", 14)
     frame(s, 16, 16, 420, 250, "1  REAR POST — STAND-OFF MOUNTS (NTS)")
     s.rect(80, 48, 16, 190, fill="url(#hatch)", stroke="#141414", sw=0.4)
     hatch_defs(s)
@@ -1297,7 +1297,7 @@ def sheet_d05() -> Sheet:
                     "the post, not the outer skin.",
                     "No gland or cable on the ladder",
                     "rail unless it is sealed.",
-                    "Prototype only.",
+                    "R&D build. Not an LTO release.",
                 ],
             ),
             (
@@ -1324,7 +1324,7 @@ def sheet_d05() -> Sheet:
 # ---------------------------------------------------------------------------
 
 def sheet_d06() -> Sheet:
-    s = Sheet("D-06", "REAR BUMPER AND SPLASH UNDER THE +1000 TAIL", "NTS — DO NOT SCALE", 14)
+    s = Sheet("D-06", "REAR BUMPER AND SPLASH UNDER THE +1000 TAIL", "NTS — DO NOT SCALE", 15)
     hatch_defs(s)
     frame(s, 16, 16, 460, 230, "1  BUMPER–SHELL INTERFACE (NTS)")
     s.rect(50, 70, 200, 12, fill="url(#hatch)", stroke="#141414", sw=0.4)
@@ -1391,7 +1391,7 @@ def sheet_d06() -> Sheet:
                     "Weep must still daylight after",
                     "the bumper is fitted.",
                     "Hose this joint with D-03.",
-                    "Prototype only.",
+                    "R&D build. Not an LTO release.",
                 ],
             ),
             (
@@ -1419,14 +1419,14 @@ def sheet_d06() -> Sheet:
 
 def sheet_index() -> Sheet:
     s = Sheet("I-00", "DRAWING INDEX, SoR, AND RELEASE STAMP", "—", 1)
-    s.text(18, 26, "KE-Texh / TAMARAW  —  PHASE-1 SHELL  —  FABRICATOR DISCUSSION PACK", 4.6, weight="bold")
+    s.text(18, 26, "KE-Texh / TAMARAW  —  PHASE-1 SHELL  —  R&D FABRICATOR PACK", 4.6, weight="bold")
     s.text(18, 40, WM, 3.3, weight="bold", fill="#9b1c1c")
 
     # Stamp
     s.rect(16, 50, 400, 78, fill="#ffffff", stroke="#9b1c1c", sw=0.8)
-    s.text(28, 68, "STAMP: CONDITIONAL — DISCUSS", 4.0, weight="bold", fill="#9b1c1c")
-    s.text(28, 84, "NO-GO CUT STEEL UNTIL THE GATES BELOW ARE SIGNED", 3.0, weight="bold")
-    s.text(28, 100, "PROTOTYPE ONLY  ·  RENDERS ≠ FARM-READY  ·  NOT LTO", 2.7)
+    s.text(28, 68, "STAMP: CONDITIONAL — NO-GO CUT", 4.0, weight="bold", fill="#9b1c1c")
+    s.text(28, 84, "GATES UNSIGNED = DO NOT CUT STEEL", 3.0, weight="bold")
+    s.text(28, 100, "R&D BUILD  ·  RENDERS ARE NOT CUT GEOMETRY  ·  NOT LTO", 2.7)
     s.text(28, 116, "OAH ≤ 2500 = HATCH CLOSED.  NO SECOND OAL.", 2.7)
 
     s.rect(428, 50, 397, 78, fill="#ffffff", stroke="#141414", sw=0.45)
@@ -1446,16 +1446,19 @@ def sheet_index() -> Sheet:
         ["S-04", "Rear, vertical flat back", "1:10"],
         ["S-05", "Section A–A, over-cab + tail", "1:10"],
         ["S-06", "Rear intent: window, hatch, ladder", "1:10"],
-        ["S-07", "Roof plan: lounge + Phase-2 dashed", "1:10"],
+        ["S-07", "Roof plan: lounge + Phase-2 hooks", "1:10"],
+        ["S-08", "Service plan: AC curb + gen bay", "1:10"],
         ["D-01", "Bolted outriggers / rail drill", "NTS"],
         ["D-02", "Landing legs + blank kg placard", "NTS"],
         ["D-03", "Hose / rain joints, FAIL-IF", "NTS"],
         ["D-04", "Hatch + lounge frame, sealed", "NTS"],
         ["D-05", "Wall ladder mounts, not a lift", "NTS"],
         ["D-06", "Bumper, splash, hitch vs leg", "NTS"],
+        ["D-07", "Generator provision — not the unit", "NTS"],
+        ["D-08", "AC curb provision — not the unit", "NTS"],
         ["A-05", "Panel assembly P1–P8", "1:15"],
     ]
-    table(s, 16, 136, [52, 248, 48], sheets, row_h=9.8, size=2.25)
+    table(s, 16, 136, [52, 248, 48], sheets, row_h=8.4, size=2.05)
 
     sor = [
         ["DATUM", "mm", "STATUS"],
@@ -1475,17 +1478,18 @@ def sheet_index() -> Sheet:
     ]
     table(s, 380, 136, [120, 100, 150], sor, row_h=9.8, size=2.2)
 
-    s.rect(16, 302, 809, 196, fill="#ffffff", stroke="#141414", sw=0.5)
-    s.text(28, 316, "GATES — UNSIGNED  ·  NO-GO CUT UNTIL AS-FOUND + JAY GO + D-01…D-06", 3.0, weight="bold")
+    s.rect(16, 304, 809, 194, fill="#ffffff", stroke="#141414", sw=0.5)
+    s.text(28, 316, "GATES — UNSIGNED  ·  NO-GO CUT UNTIL AS-FOUND + JAY GO + ENG + D-01…D-08", 3.0, weight="bold")
     gates = [
-        (334, "AS-FOUND TAPE", "Bed, rails, cab roof, overhangs, VIN. Freeze on a shop traveler."),
-        (354, "JAY GO RAIL DRILL", "D-01 signed. No undirected drill into the bed rail or chassis rail."),
-        (374, "OUTRIGGERS + LEGS + kg", "D-01 and D-02. Placard stays blank until a post-weigh."),
-        (394, "HOSE / RAIN", "D-03 at the extension joint. FAIL-IF wet cabin, trapped water, wet glands."),
-        (414, "HATCH FRAME", "D-04. FAIL-IF open cut with no seal, no rail, water in lounge, hatch open on road."),
-        (434, "LADDER", "D-05. Roof access only. FAIL-IF used as a lift, or mounts loosen."),
-        (454, "BUMPER / SPLASH", "D-06. FAIL-IF trapped water under the tail, or wet glands at the bumper."),
-        (474, "PROTOTYPE ONLY", "OAH ≤ 2500 means hatch closed. Renders are not farm-ready. Not LTO."),
+        (332, "AS-FOUND TAPE", "Bed, rails, cab roof, overhangs, VIN. Freeze on a shop traveler."),
+        (348, "JAY GO RAIL DRILL", "D-01 signed. No undirected drill into the bed rail or chassis rail."),
+        (364, "OUTRIGGERS + LEGS + kg", "D-01 and D-02. Placard stays blank until a post-weigh."),
+        (380, "HOSE / RAIN", "D-03 at the extension joint. FAIL-IF wet cabin, trapped water, wet glands."),
+        (396, "HATCH FRAME", "D-04. FAIL-IF open cut with no seal, no rail, water in lounge, hatch open on road."),
+        (412, "LADDER", "D-05. Roof access only. FAIL-IF used as a lift, or mounts loosen."),
+        (428, "BUMPER / SPLASH", "D-06. FAIL-IF trapped water under the tail, or wet glands at the bumper."),
+        (444, "ENG TUBE / WELD", "Section and weld size stay TBD until Eng GO. Do not invent them."),
+        (460, "GEN + AC PROVISION", "D-07 and D-08. Mounts only. Units are not cut Done. Parked-only gen run."),
     ]
     for gy, title, detail in gates:
         s.checkbox(28, gy - 6, 5.5, layer="draw")
@@ -1506,6 +1510,8 @@ def render(sheet: Sheet, svg_path: Path, png_path: Path):
 
 
 def main():
+    from service_sheets import sheet_d07, sheet_d08, sheet_s08
+
     SHEETS_DIR.mkdir(parents=True, exist_ok=True)
     PREVIEWS.mkdir(parents=True, exist_ok=True)
     ARTIFACTS.mkdir(parents=True, exist_ok=True)
@@ -1519,12 +1525,15 @@ def main():
         ("S-05_section", _sheet_s05_clean),
         ("S-06_rear_intent", sheet_s06),
         ("S-07_roof_plan", sheet_s07),
+        ("S-08_service_plan", sheet_s08),
         ("D-01_outriggers", sheet_d01),
         ("D-02_landing_legs", sheet_d02),
         ("D-03_hose_rain", sheet_d03),
         ("D-04_hatch_lounge", sheet_d04),
         ("D-05_ladder_mounts", sheet_d05),
         ("D-06_bumper_splash", sheet_d06),
+        ("D-07_generator", sheet_d07),
+        ("D-08_ac", sheet_d08),
         ("A-05_shell_assembly", sheet_a05),
     ]
     # sheet_s01 and sheet_s05 call the clean versions; the wrappers exist only as names.
@@ -1564,6 +1573,8 @@ def main():
         "D-04_hatch_lounge",
         "D-05_ladder_mounts",
         "D-06_bumper_splash",
+        "D-07_generator",
+        "D-08_ac",
         "A-05_shell_assembly",
     ):
         shutil.copyfile(PREVIEWS / f"{name}.png", ARTIFACTS / f"{name}.png")
