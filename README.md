@@ -56,6 +56,8 @@ Do not cut until these are signed: as-found tape, Jay GO rail drill, Eng tube/we
 
 Redefined Phase-1 plan, still CONDITIONAL / NO-GO cut: [`docs/qc/PHASE-PLAN-REDEF.md`](docs/qc/PHASE-PLAN-REDEF.md).
 
+- Fabricator Cut Release track = [`docs/qc/FABRICATOR-CUT-RELEASE.md`](docs/qc/FABRICATOR-CUT-RELEASE.md) — HOLD until gates green.
+
 ## Other trees
 
 | Path | Role |

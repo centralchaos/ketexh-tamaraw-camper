@@ -21,6 +21,8 @@
 **Cut steel / send fabricator pack:** blocked while any of L2–L6 is RED.  
 **Merge to `main` / public ChatGPT review:** does **not** clear this gate.
 
+**Binder companion:** [`FABRICATOR-CUT-RELEASE.md`](FABRICATOR-CUT-RELEASE.md) is the cut-send track (exit checklist, release-binder contents, suggested cut-batch order, empty authorization lines). It does not change the colors in the table above. Today remains **CONDITIONAL / NO-GO cut** / **HOLD**. This gate table stays authoritative for L1–L6.
+
 ---
 
 ## What QC-REPORT establishes (and does not)

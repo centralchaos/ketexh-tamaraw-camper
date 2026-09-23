@@ -9,8 +9,8 @@
 | SoR dims | `DIMS.md` only (this file does not add a second overall length) |
 | Repo | https://github.com/centralchaos/ketexh-tamaraw-camper (public) |
 | Rule | Public repo ≠ cut release. SVG/PNG present ≠ fabrication-ready. Merge to `main` / ChatGPT review does **not** clear the fabricator gate. |
-| Basis | `DIMS.md`, `FAB-HANDOFF-GATE.md`, `PER-PART-AUDIT.md` (+ summary), `commissioning-gates.md`, `README.md`, `CUT-FORM-REGISTER.md`, `BOM-MAT-VERIFY.md` |
-| Rev | A · 2026-09-23 Asia/Shanghai · Lilu-G / Cursor redefine after ChatGPT Lego review |
+| Basis | `DIMS.md`, `FAB-HANDOFF-GATE.md`, `FABRICATOR-CUT-RELEASE.md`, `PER-PART-AUDIT.md` (+ summary), `commissioning-gates.md`, `README.md`, `CUT-FORM-REGISTER.md`, `BOM-MAT-VERIFY.md` |
+| Rev | A.1 · 2026-09-23 Asia/Shanghai · Fabricator Cut Release track added; Lego colors unchanged (L1 GREEN, L2–L6 RED). Prior: Rev A same day, redefine after ChatGPT Lego review. |
 
 **Do not invent** thickness, grade, weld size, bolt grade, kW, BTU, or kg. Where the pack says TBD, this plan keeps TBD.
 
@@ -222,6 +222,12 @@ Each phase ends with a **shop-visible artifact**, not a meeting.
 
 **Owner:** Field / Jay · **Gate:** L6 · **Then** fabricator language may leave NO-GO — still not LTO.
 
+### Cut-send track (not a phase end)
+
+P0–P6 do not authorize steel. The authorized send of cut patterns + traveler — separate from R&D review and from LTO — is `docs/qc/FABRICATOR-CUT-RELEASE.md` (exit checklist, binder contents, cut-batch order, blank authorization lines).
+
+**Default: HOLD** until L2–L6 are GREEN. L1 stays GREEN. This pointer does not flip a Lego color and does not mark any part CUT-READY.
+
 ---
 
 ## 6. Per-part promotion backlog (33 rows → work packages)
@@ -386,7 +392,7 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 | # | Decision | Options | Needed before | Status |
 |---|----------|---------|---------------|--------|
 | D1 | Merge PR #4 (BOM PL plate patch tip `863c427` (BOM+audit; earlier BOM-only tip was 6d5562d))? | Merge / hold / re-verify on tip then merge | WP-B hygiene; BOM-MAT-VERIFY re-run | ☐ |
-| D2 | Fabricator send hold? | **Hold** (default while L2–L6 RED) / send only after all Lego GREEN | Any steel cut | ☐ Hold |
+| D2 | Fabricator send hold? | **Hold** (default while L2–L6 RED) / send only after all Lego GREEN. Fabricator Cut Release track added — default HOLD until L2–L6 GREEN (`FABRICATOR-CUT-RELEASE.md`). | Any steel cut | ☐ Hold |
 | D3 | Which WP first after P0 tape? | Recommended: WP-B → WP-D (P4) → WP-E (C-FR) in parallel with WP-J Eng GO start; **or** hold all geometry and stay paper-only | Survive-without-Mavlon path | ☐ |
 | D4 | PL-09/PL-10 BOM treatment | Explicit provision lines **or** “counted only under D-07/D-08” | Shop explosion clarity | ☐ |
 | D5 | P4 path | Develop + DXF B/D/E **or** stamp shop-develop forever | L2 | ☐ |
@@ -416,6 +422,8 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 
 **If Eng GO refuses or delays:** keep MAT-01/J-01 TBD; do not substitute brands; geometry DXF may still proceed as CONDITIONAL inventory only — **not** CUT-READY.
 
+**Cut send:** binder contents, exit checklist, and batch order are in `docs/qc/FABRICATOR-CUT-RELEASE.md`. Day 7 does not clear them. Default remains HOLD until L2–L6 GREEN.
+
 ---
 
 ## Cross-refs
@@ -424,6 +432,7 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 |-----|------|
 | `DIMS.md` | Only envelope register |
 | `FAB-HANDOFF-GATE.md` | Lego L1–L6 + residual gates |
+| `FABRICATOR-CUT-RELEASE.md` | Cut-send track: exit checklist, binder, batch order. Default HOLD |
 | `PER-PART-AUDIT.md` | 33-row six-field matrix |
 | `PER-PART-AUDIT-SUMMARY.md` | 0/6/18/9 counts + top blockers |
 | `commissioning-gates.md` | Signed traveler boxes |
@@ -433,4 +442,4 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 
 ---
 
-*End PHASE-PLAN-REDEF Rev A. CONDITIONAL / NO-GO cut. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.*
+*End PHASE-PLAN-REDEF Rev A.1. CONDITIONAL / NO-GO cut. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Fabricator send HOLD.*
