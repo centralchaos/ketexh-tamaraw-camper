@@ -730,6 +730,7 @@ def sheet_bom():
         ["P6 roof", "1", "C-06", "Splice TBD"],
         ["Frame FR-01…FR-22", "See C-FR", "C-FR", "Section TBD"],
         ["Plates PL-01…PL-08", "TBD", "C-PL", "Holes TBD"],
+        ["PL-09 / PL-10 provisions", "TBD", "C-PL", "NOT THE UNIT"],
         ["Door leaf + jamb", "1", "DR-01 DR-02", "Overlap TBD"],
         ["Lounge hatch leaf", "1", "H-01", "Size TBD"],
         ["Rear hatch leaf", "1", "H-02", "Size TBD"],
@@ -741,6 +742,7 @@ def sheet_bom():
         ["Solar / awning / seats", "—", "S-07 S-08", "HOOK ONLY"],
     ]
     table(s, 16, 34, [180, 80, 120, 140], rows, row_h=20.5, size=2.35)
+    s.text(18, 450, "C-PL IS PL-01…PL-10. PL-09 GEN PAD AND PL-10 AC CLEAT ARE PROVISIONS. NOT THE UNIT. NOT A BUY.", 2.45, weight="bold")
     return finish(s)
 
 
