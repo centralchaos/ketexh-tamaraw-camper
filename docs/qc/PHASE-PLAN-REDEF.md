@@ -10,7 +10,7 @@
 | Repo | https://github.com/centralchaos/ketexh-tamaraw-camper (public) |
 | Rule | Public repo ≠ cut release. SVG/PNG present ≠ fabrication-ready. Merge to `main` / ChatGPT review does **not** clear the fabricator gate. |
 | Basis | `DIMS.md`, `FAB-HANDOFF-GATE.md`, `FABRICATOR-CUT-RELEASE.md`, `PER-PART-AUDIT.md` (+ summary), `commissioning-gates.md`, `README.md`, `CUT-FORM-REGISTER.md`, `BOM-MAT-VERIFY.md` |
-| Rev | A.1 · 2026-09-23 Asia/Shanghai · Fabricator Cut Release track added; Lego colors unchanged (L1 GREEN, L2–L6 RED). Prior: Rev A same day, redefine after ChatGPT Lego review. |
+| Rev | A.2 · 2026-09-23 Asia/Shanghai · Pointers to the DXF trial, empty Eng GO request, and WP-A tape checklist. Lego colors unchanged (L1 GREEN, L2–L6 RED). Prior: Rev A.1 same day, Fabricator Cut Release track. |
 
 **Do not invent** thickness, grade, weld size, bolt grade, kW, BTU, or kg. Where the pack says TBD, this plan keeps TBD.
 
@@ -393,7 +393,7 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 |---|----------|---------|---------------|--------|
 | D1 | Merge PR #4 (BOM PL plate patch tip `863c427` (BOM+audit; earlier BOM-only tip was 6d5562d))? | Merge / hold / re-verify on tip then merge | WP-B hygiene; BOM-MAT-VERIFY re-run | ☐ |
 | D2 | Fabricator send hold? | **Hold** (default while L2–L6 RED) / send only after all Lego GREEN. Fabricator Cut Release track added — default HOLD until L2–L6 GREEN (`FABRICATOR-CUT-RELEASE.md`). | Any steel cut | ☐ Hold |
-| D3 | Which WP first after P0 tape? | Recommended: WP-B → WP-D (P4) → WP-E (C-FR) in parallel with WP-J Eng GO start; **or** hold all geometry and stay paper-only | Survive-without-Mavlon path | ☐ |
+| D3 | Which WP first after P0 tape? | Recommended: WP-B → WP-D (P4) → WP-E (C-FR) in parallel with WP-J Eng GO start; **or** hold all geometry and stay paper-only. Drafts exist (`DXF-EXPORT-TRIAL.md`, `ENG-GO-REQUEST.md`, `AS-FOUND-TAPE-CHECKLIST.md`); they do not choose this row. | Survive-without-Mavlon path | ☐ |
 | D4 | PL-09/PL-10 BOM treatment | Explicit provision lines **or** “counted only under D-07/D-08” | Shop explosion clarity | ☐ |
 | D5 | P4 path | Develop + DXF B/D/E **or** stamp shop-develop forever | L2 | ☐ |
 | D6 | Manual DXF owner | Cursor local CAD export vs outside draughtsman vs hold paper | L2 | ☐ |
@@ -424,6 +424,8 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 
 **Cut send:** binder contents, exit checklist, and batch order are in `docs/qc/FABRICATOR-CUT-RELEASE.md`. Day 7 does not clear them. Default remains HOLD until L2–L6 GREEN.
 
+Close-out drafts (do not clear Day 7): SVG→DXF trial `docs/qc/DXF-EXPORT-TRIAL.md`; Eng GO request with empty boxes `docs/qc/ENG-GO-REQUEST.md`; WP-A tape checklist `notes/AS-FOUND-TAPE-CHECKLIST.md`. L2–L6 stay RED.
+
 ---
 
 ## Cross-refs
@@ -439,7 +441,10 @@ Ordered for survive-without-Mavlon (capture → paper → geometry → Eng/Jay G
 | `CUT-FORM-REGISTER.md` | Human cut/form walk |
 | `BOM-MAT-VERIFY.md` | BOM/MAT gaps (tip `9eb43ea`; PR #4 note) |
 | `README.md` | Pack reading order |
+| `docs/qc/DXF-EXPORT-TRIAL.md` | SVG→DXF trial. CONDITIONAL inventory. L2 stays RED. |
+| `docs/qc/ENG-GO-REQUEST.md` | Empty Eng boxes for WP-J / P3. |
+| `notes/AS-FOUND-TAPE-CHECKLIST.md` | Printable WP-A / P0 tape sheet. |
 
 ---
 
-*End PHASE-PLAN-REDEF Rev A.1. CONDITIONAL / NO-GO cut. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Fabricator send HOLD.*
+*End PHASE-PLAN-REDEF Rev A.2. CONDITIONAL / NO-GO cut. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED. Fabricator send HOLD.*

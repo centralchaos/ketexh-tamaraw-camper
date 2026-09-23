@@ -57,6 +57,7 @@ Do not cut until these are signed: as-found tape, Jay GO rail drill, Eng tube/we
 Redefined Phase-1 plan, still CONDITIONAL / NO-GO cut: [`docs/qc/PHASE-PLAN-REDEF.md`](docs/qc/PHASE-PLAN-REDEF.md).
 
 - Fabricator Cut Release track = [`docs/qc/FABRICATOR-CUT-RELEASE.md`](docs/qc/FABRICATOR-CUT-RELEASE.md) — HOLD until gates green.
+- Close-out drafts, still HOLD / L2–L6 RED: DXF trial [`docs/qc/DXF-EXPORT-TRIAL.md`](docs/qc/DXF-EXPORT-TRIAL.md), empty Eng GO request [`docs/qc/ENG-GO-REQUEST.md`](docs/qc/ENG-GO-REQUEST.md), WP-A tape checklist [`notes/AS-FOUND-TAPE-CHECKLIST.md`](notes/AS-FOUND-TAPE-CHECKLIST.md).
 
 ## Other trees
 

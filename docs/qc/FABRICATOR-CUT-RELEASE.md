@@ -4,7 +4,7 @@
 **Hold:** Fabricator cut send is **HOLD**. This file is the track to reach GO. It is not a GO stamp.
 **Watermark:** **PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED**
 **Today:** L1 **GREEN** · L2–L6 **RED** (colors live in `FAB-HANDOFF-GATE.md`). Audit **0 PASS / 6 GAP / 18 RED / 9 HOOK**. No part is CUT-READY.
-**Rev:** A · 2026-09-23 Asia/Shanghai
+**Rev:** A.1 · 2026-09-23 Asia/Shanghai · Pointers only: DXF trial, empty Eng GO request, WP-A tape checklist. Lego colors unchanged. Prior: Rev A same day.
 
 **Do not invent** thickness, grade, weld size, bolt grade, kerf, kW, BTU, or kg. Where the pack says TBD, this track keeps TBD. Empty signature lines stay empty.
 
@@ -57,6 +57,8 @@ GO cut send requires **both**: every Lego row L1–L6 **GREEN** on `FAB-HANDOFF-
 | **8** | Commissioning: weigh placard, hose FAIL-IF, OAH closed, stability support | **Open** | Weigh date and placard-blank check, hose result, OAH ≤ 2500 with hatch closed, stability / outrigger and leg boxes signed. | `notes/commissioning-gates.md` §4–§5 · WP-L |
 
 **Leave NO-GO only when** the L1–L6 column on `FAB-HANDOFF-GATE.md` is all GREEN **and** residual artifacts 1–8 are filed on the traveler. Until that day the stamp on this file stays **CONDITIONAL / NO-GO cut**.
+
+Trial inventory does not close this section: `docs/qc/DXF-EXPORT-TRIAL.md` (as-drawn DXF, not cut profiles), `docs/qc/ENG-GO-REQUEST.md` (empty Eng boxes), `notes/AS-FOUND-TAPE-CHECKLIST.md` (blank WP-A tape sheet). L2–L6 stay RED.
 
 ---
 
@@ -153,7 +155,10 @@ Put both lines on the binder cover and on the traveler:
 | `inventory/CUT-FORM-REGISTER.md` | What is drawn vs what is still thin |
 | `docs/qc/BOM-MAT-VERIFY.md` | BOM/MAT gaps; no invented stock |
 | `README.md` | Pack reading order |
+| `docs/qc/DXF-EXPORT-TRIAL.md` | As-drawn SVG→DXF trial. CONDITIONAL inventory. Not residual 5. |
+| `docs/qc/ENG-GO-REQUEST.md` | Empty Eng TBD boxes. Feeds L3. Not a signature. |
+| `notes/AS-FOUND-TAPE-CHECKLIST.md` | Printable WP-A tape sheet. Results start blank. |
 
 ---
 
-*End FABRICATOR-CUT-RELEASE Rev A. CONDITIONAL / NO-GO cut. HOLD. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.*
+*End FABRICATOR-CUT-RELEASE Rev A.1. CONDITIONAL / NO-GO cut. HOLD. PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED.*
