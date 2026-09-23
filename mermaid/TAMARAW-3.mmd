@@ -1,0 +1,37 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Outside → cavity"]
+    direction TB
+    PAINT["Heat-reflective paint<br/>local equivalent"]
+    GI_OUT["Exterior GI sheet<br/>0.5–0.8 mm"]
+    WOOL["Mineral wool<br/>~50 mm cavity"]
+  end
+  subgraph C2["② Structure + barrier"]
+    direction TB
+    TUBE["Mild steel tube<br/>primary / secondary"]
+    FOIL["Foil / kraft-foil<br/>vapor + radiant"]
+    BUILD["Wall build-up<br/>~50–80 mm typ."]
+  end
+  subgraph C3["③ Inside + status"]
+    direction TB
+    GI_IN["Interior GI liner<br/>0.5 mm · not furniture"]
+    ROOF["Roof same stack<br/>solar lands Phase-2"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  PAINT --> GI_OUT --> WOOL
+  WOOL --> TUBE --> FOIL
+  FOIL --> GI_IN
+  BUILD -.-> TUBE
+  GI_IN --> ROOF --> WM

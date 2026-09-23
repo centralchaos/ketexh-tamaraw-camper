@@ -1,0 +1,40 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Primary frame"]
+    direction TB
+    PR["Primary rings / rails<br/>40×40×2 MS SHS"]
+    FOOT["Sized to LWB bed<br/>~2647 × 1711 mm"]
+    RING["Uprights ~1950–2050 mm<br/>confirm after measure"]
+  end
+  subgraph C2["② Secondary + skin lands"]
+    direction TB
+    SEC["Secondary tube<br/>25×25×1.5–2.0 mm"]
+    BUCK["Door / aperture bucks<br/>continuous to rings"]
+    SKIN["GI skin lands<br/>0.5–0.8 mm exterior"]
+  end
+  subgraph C3["③ Chassis tie-ins"]
+    direction TB
+    CLAMP["Clamps / saddles<br/>bed + crossmembers"]
+    NO["No undirected<br/>frame-rail drilling"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  PR --> SEC
+  FOOT --> PR
+  RING --> BUCK
+  SEC --> BUCK
+  BUCK --> SKIN
+  PR --> CLAMP
+  CLAMP --> NO
+  NO --> WM

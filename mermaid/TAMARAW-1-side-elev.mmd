@@ -1,0 +1,35 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Side proportion lock"]
+    direction TB
+    RATIO["Sketch L/H ≈ 2.537<br/>Arch bbox 1223×482"]
+    SKONLY["Sketch / Mermaid only<br/>not cut-list"]
+    NOFREEZE["NO-GO fab freeze<br/>from photo mm"]
+  end
+  subgraph C2["② Zones left → right"]
+    direction TB
+    CAB["Cab + over-cab room<br/>tall continuous roof"]
+    BED["Stock bed zone<br/>intent ~2647 mm L"]
+    TAIL["CONDITIONAL tail<br/>+1000 intent · open"]
+  end
+  subgraph C3["③ Dual OAL · watermark"]
+    direction TB
+    FORK["Do not mix scales<br/>photo ~5942 vs draft ~6300"]
+    P2["Roof AC / awning / solar<br/>Phase-2 hooks only"]
+    WM["PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED"]
+  end
+  RATIO --> SKONLY --> NOFREEZE
+  NOFREEZE --> CAB --> BED --> TAIL
+  TAIL --> FORK --> P2 --> WM

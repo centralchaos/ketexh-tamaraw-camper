@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6442 2762">
+  <rect width="100%" height="100%" fill="#fcfcfa"/>
+  <text x="20" y="36" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="bold">TAMARAW CAMPER — SIDE ELEVATION</text>
+  <text x="20" y="60" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" fill="#666">OAL 5942 · OAH 2342 · WB 3085 · L/H 2.537 · PRELIMINARY · NOT LTO-CERTIFIED</text>
+  <g transform="translate(120,2622) scale(1,-1)" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="5942" y2="0" stroke="#141414" stroke-width="3"/>
+    <rect x="0" y="0" width="5300" height="1800" fill="none" stroke="#888" stroke-width="1.5" stroke-dasharray="20 14"/>
+    <path d="M 200 2342 L 5942 2342 L 5942 970 L 5762 850 L 2653 850 L 2653 1680 L 240 1680 L 200 1760 Z" fill="none" stroke="#141414" stroke-width="4"/>
+    <rect x="2653" y="840" width="2647" height="20" fill="none" stroke="#006eb4" stroke-width="3"/>
+    <rect x="2573" y="850" width="620" height="1412" fill="none" stroke="#141414" stroke-width="2.5"/>
+    <rect x="3373" y="1570" width="900" height="520" fill="none" stroke="#141414" stroke-width="2.5"/>
+    <rect x="4473" y="1570" width="900" height="520" fill="none" stroke="#141414" stroke-width="2.5"/>
+    <rect x="320" y="1860" width="1400" height="280" fill="none" stroke="#141414" stroke-width="2.5"/>
+    <circle cx="870" cy="0" r="330.0" fill="none" stroke="#008246" stroke-width="3"/>
+    <circle cx="3955" cy="0" r="330.0" fill="none" stroke="#008246" stroke-width="3"/>
+    <line x1="5300" y1="0" x2="5300" y2="2342" stroke="#b43232" stroke-width="1.5"/>
+  </g>
+  <text x="120" y="2662" font-family="DejaVu Sans,Arial,sans-serif" font-size="18">OAL 5942 · WB 3085 · FOH 870 · ROH 1987 · BED 2647×1711 · SHELL W 1911 · OAH 2342</text>
+  <text x="120" y="2690" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" fill="#b43232">REV A PRELIMINARY — VERIFY ON VEHICLE — NOT LTO-CERTIFIED</text>
+</svg>

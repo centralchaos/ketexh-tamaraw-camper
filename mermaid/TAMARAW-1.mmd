@@ -1,0 +1,40 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Stock LWB bed"]
+    direction TB
+    BED["Cargo bed<br/>~2647 mm L × 1711 mm W"]
+    WB["Wheelbase 3085 mm<br/>verify on VIN"]
+    OEM["OEM width ~1800 mm<br/>public press"]
+  end
+  subgraph C2["② Phase-1 shell envelope"]
+    direction TB
+    W["Max exterior W<br/>2000 mm"]
+    CL["Clear interior H<br/>1900–2000 mm"]
+    OH["Overall H<br/>≤ 2500 mm"]
+    Z["Zero chassis extension<br/>preferred · L ≤ bed"]
+  end
+  subgraph C3["③ Watermark"]
+    direction TB
+    WM1["PRELIMINARY"]
+    WM2["VERIFY ON VEHICLE"]
+    WM3["NOT LTO-CERTIFIED"]
+  end
+  BED --> W
+  BED --> CL
+  WB -.-> Z
+  OEM -.-> W
+  W --> WM1
+  CL --> WM2
+  OH --> WM3

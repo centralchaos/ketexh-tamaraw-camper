@@ -1,0 +1,39 @@
+---
+config:
+  theme: neutral
+  themeVariables:
+    fontSize: 18px
+  layout: dagre
+  look: classic
+  flowchart:
+    curve: linear
+    nodeSpacing: 40
+    rankSpacing: 48
+    padding: 16
+---
+flowchart LR
+  subgraph C1["① Elevations"]
+    direction TB
+    S01["S-01 Side elev<br/>L/H ≈ 2.537 sketch"]
+    S02["S-02 Plan"]
+    S03["S-03 Front"]
+    S04["S-04 Rear"]
+  end
+  subgraph C2["② Section · assembly · details"]
+    direction TB
+    S05["S-05 Cross-section"]
+    A05["A-05 Assembly"]
+    D01["D-01 Outriggers / rail"]
+    D02["D-02 Landing legs"]
+  end
+  subgraph C3["③ SoR strip · stamp"]
+    direction TB
+    D03["D-03 Hose/rain FAIL-IF"]
+    SOR["Floor 3647×1911 · OAL≈6300<br/>OAH≤2500 · over-cab≈1223"]
+    STAMP["CONDITIONAL · PRELIMINARY<br/>NOT LTO-CERTIFIED"]
+    NOTE["L/H 2.537 unlabeled as cut<br/>INDEX ≠ cut-list"]
+  end
+  S01 --> S02 --> S03 --> S04
+  S04 --> S05 --> A05
+  A05 --> D01 --> D02 --> D03
+  D03 --> SOR --> STAMP --> NOTE
